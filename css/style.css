@@ -7,14 +7,12 @@ body {
   line-height: 150%;
   /* Set font family to be Helvetica or Arial */
   font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 
-  /*background-image: url('../img/background.jpg');
-  *background-size: contain;
-  *background-repeat: no-repeat; */
+ /* background-image: url('../img/background.jpg');
+  background-size: contain;
+  background-repeat: no-repeat; */
 
-  /*max-width: 100%;
-  *height: auto;
-  *width: auto/2; */
 
 }
 header {
@@ -28,19 +26,33 @@ main {
   /* Set margin to be automatically calculated on all sides */
   margin: auto;
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right *//*Padding is "body fat", whereas margins is "personal space" */
-  padding: 0px 0px; /*top AND bottom 0px, left AND right 20px */
+  padding: 0px 20px; /*top AND bottom 0px, left AND right 20px */
 }
 
-/* img doing nothing right now */
+/*.image
+{
+  position: absolute;
+  width: 50%;
+}*/
+
+h3
+{
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  width: 100%;
+}
+
 img {
 
-  /* Set max width to be 100% of the containing element */
+   
   max-width: 100%;
 
-  position: absolute;
+  /*position: absolute;
     top: 0px;
-    left: 0px;
-    z-index: -1; 
+    left: 0px;*/
+    /*z-index: 1; */
+    /*margin: 0px 0px 0px 20px;*/
   
 }
 
@@ -71,6 +83,12 @@ img {
 
 }*/
 
+/*.pls
+{
+  padding: 750px 0px 0px 0px;
+
+}
+*/
 
 /* Change font size as page size decreases*/
 @media (max-width: 900px) {

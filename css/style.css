@@ -4,9 +4,8 @@ body {
   /* Set font size to be 20 pixels */
   font-size: 20px;
   /* Set line height to be 1.5 times larger than default */
-  line-height: 150%;
-  /* Set font family to be Helvetica or Arial */
-  font-family: Arial, Helvetica, sans-serif;
+ /* line-height: 150%;*/
+  font-family: "Book Antiqua", "Palatino Linotype", serif;
   text-align: justify;
 
  /* background-image: url('../img/background.jpg');
@@ -22,73 +21,51 @@ header {
 
 main {
   /* Set maximum width to be 800 pixels */
-  max-width: 800px;
+  max-width: 1250px;
   /* Set margin to be automatically calculated on all sides */
   margin: auto;
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right *//*Padding is "body fat", whereas margins is "personal space" */
   padding: 0px 20px; /*top AND bottom 0px, left AND right 20px */
 }
 
-/*.image
-{
-  position: absolute;
-  width: 50%;
-}*/
 
-h3
-{
-  position: absolute;
-  top: 200px;
-  left: 0px;
-  width: 100%;
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
 }
 
 img {
 
-   
   max-width: 100%;
+  height: auto;
+  opacity: 0.65;
+}
 
-  /*position: absolute;
-    top: 0px;
-    left: 0px;*/
-    /*z-index: 1; */
-    /*margin: 0px 0px 0px 20px;*/
-  
+.col
+{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    column-gap: 40px;
 }
 
 /* after page starts to move HI*/
 .header {
     background-color: #ccc;
-    width: 80%;						
+    width: 100%;						
     position: fixed;
     top: 0;
-    right: 10%;
+    right: 0%;
     bottom: auto;
+    font-family: Times, Helvetica, sans-serif;
 }
-/*.outer {
-    background-color: red;
-    position: relative;
-    height: 30px;
-}
-
- /*before page starts to move BYE*/
-/*.outer .header {
-    position: absolute;
-    right: 10%;
-    bottom: 0;
-    /*z-index < 0 means behind text, z-index > 0 means in front of text*/
-    /*z-index: 2;
-    top: 0;
-    left: 0px;
-
-}*/
-
-/*.pls
-{
-  padding: 750px 0px 0px 0px;
-
-}
-*/
 
 /* Change font size as page size decreases*/
 @media (max-width: 900px) {
@@ -151,6 +128,23 @@ img {
     /* Set font size to be 80% of the normal size */
     font-size: 80%;
     background-color: orange;
+  }
+
+}
+@media (max-width: 380px) {
+
+  body {
+    /* Set font size to be 80% of the normal size */
+    font-size: 80%;
+    background-color: cyan;
+  }
+
+  .col
+  {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    
   }
 
 }

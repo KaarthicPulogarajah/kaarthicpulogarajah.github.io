@@ -28,24 +28,88 @@ main {
   padding: 0px 20px; /*top AND bottom 0px, left AND right 20px */
 }
 
+a:link
+{
+  text-decoration: none;
+}
 
 .container {
     position: relative;
 }
 
-.center {
+.iam {
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 28%;
     width: 100%;
     text-align: center;
+    color: black;
+    font-size: 150%;
+    font-style: oblique;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F,0 0 0.2em #87F;
+
+}
+.title
+{
+   position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 400%;
+    color: black;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F,0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F;
 }
 
-img {
+.button1 {
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    font-size: 120%;
+    border: 2px solid black;
+    background-color: #7343db;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 4px 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.button1:hover {
+   
+    color: black;
+}
+
+.button2 {
+    position: absolute;
+    left: 52%;
+    top: 60%;
+    font-size: 120%;
+    border: 2px solid black;
+    background-color: #7343db;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 4px 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.button2:hover {
+   
+    color: black;
+}
+
+.face {
 
   max-width: 100%;
   height: auto;
-  opacity: 0.65;
+  opacity: 1 ;
+}
+.back {
+
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7 ;
 }
 
 .col
@@ -62,16 +126,56 @@ img {
     width: 100%;						
     position: fixed;
     top: 0;
-    right: 0%;
+    right: 0px;
     bottom: auto;
     font-family: Times, Helvetica, sans-serif;
+    color: white;
+    padding: 0px 0px 0px 40px;
+    text-indent: 40px;
+    white-space: pre-wrap;
 }
 
-/* Change font size as page size decreases*/
+.intro
+{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 120%;
+  color: #4109ba;
+}
+
+footer {
+  /* Set font color to white */
+  color: white;
+  /* Set background color to black */
+  background-color: black;
+  /* Set padding on all sides to be 20 pixels */
+  padding: 15px;
+  /* Set text alignment to center */
+  text-align: center;
+  /* Set margin on top to be 60 pixels */
+  margin-top: 30px;
+}
+
+/* Change features as page size decreases*/
+@media (max-width: 1075px) {
+
+  body {
+    background-color: gray;
+  }
+  .button1 {
+    left: 38%;
+    top: 67%;
+}
+.button2 {
+    left: 54%;
+    top: 67%;
+}
+
+}
 @media (max-width: 900px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
     font-size: 95%;
     background-color: yellow;
   }
@@ -80,7 +184,6 @@ img {
 @media (max-width: 850px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
     font-size: 92%;
     background-color: green;
   }
@@ -89,7 +192,6 @@ img {
 @media (max-width: 800px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
     font-size: 90%;
     background-color: blue;
   }
@@ -98,43 +200,86 @@ img {
 @media (max-width: 750px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
     font-size: 87%;
     background-color: pink;
   }
+  .button1 {
+    left: 36%;
+}
 
 }
 @media (max-width: 700px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
     font-size: 85%;
     background-color: purple;
   }
+  .button1 {
+    left: 34%;
+}
 
 }
 @media (max-width: 650px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
     font-size: 82%;
     background-color: red;
   }
 
 }
+
 @media (max-width: 600px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
     font-size: 80%;
     background-color: orange;
   }
-
+  .col
+  {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    
+  }
+  
+.title
+{
+    font-size: 320%;
 }
-@media (max-width: 380px) {
+.button1 {
+    left: 30%;
+}
+
+@media (max-width: 495px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
+    font-size: 80%;
+    background-color: maroon;
+  }
+  .col
+  {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    
+  }
+  
+.title
+{
+    font-size: 320%;
+}
+.button1 {
+    left: 26%;
+    top: 74%;
+}
+.button2 {
+  top: 74%;
+}
+
+}
+@media (max-width: 412px) {
+
+  body {
     font-size: 80%;
     background-color: cyan;
   }
@@ -146,5 +291,12 @@ img {
     column-count: 1;
     
   }
+  .title
+{
+    font-size: 260%;
+}
+.button1 {
+    left: 24%;
+}
 
 }

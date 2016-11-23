@@ -5,7 +5,7 @@ body {
   font-size: 20px;
   /* Set line height to be 1.5 times larger than default */
  /* line-height: 150%;*/
-  font-family: "Book Antiqua", "Palatino Linotype", serif;
+  
   text-align: justify;
 
  /* background-image: url('../img/background.jpg');
@@ -17,6 +17,7 @@ body {
 header {
    /*Set text alignment to center */
   text-align: center;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 main {
@@ -28,9 +29,15 @@ main {
   padding: 0px 20px; /*top AND bottom 0px, left AND right 20px */
 }
 
-a:link
+a
 {
+  color: inherit;
   text-decoration: none;
+}
+
+a:hover
+{
+  color: #12027c;
 }
 
 .container {
@@ -38,6 +45,7 @@ a:link
 }
 
 .iam {
+    font-family: "Book Antiqua", "Palatino Linotype", serif;
     position: absolute;
     left: 0;
     top: 28%;
@@ -51,6 +59,7 @@ a:link
 }
 .title
 {
+
    position: absolute;
     left: 0;
     top: 25%;
@@ -63,8 +72,8 @@ a:link
 
 .button1 {
     position: absolute;
-    left: 40%;
-    top: 60%;
+    left: 39%;
+    top: 58%;
     font-size: 120%;
     border: 2px solid black;
     background-color: #7343db;
@@ -83,7 +92,7 @@ a:link
 .button2 {
     position: absolute;
     left: 52%;
-    top: 60%;
+    top: 58%;
     font-size: 120%;
     border: 2px solid black;
     background-color: #7343db;
@@ -101,7 +110,8 @@ a:link
 
 .face {
 
-  max-width: 100%;
+  max-width: 80%;
+  padding-left: 10%;
   height: auto;
   opacity: 1 ;
 }
@@ -117,10 +127,9 @@ a:link
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-    column-gap: 40px;
+    column-gap: 20px;
 }
 
-/* after page starts to move HI*/
 .header {
     background-color: #ccc;
     width: 100%;						
@@ -128,20 +137,37 @@ a:link
     top: 0;
     right: 0px;
     bottom: auto;
-    font-family: Times, Helvetica, sans-serif;
-    color: white;
-    padding: 0px 0px 0px 40px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    color: black;
+    padding: 5px 0px 5px 40px;
     text-indent: 40px;
     white-space: pre-wrap;
+
 }
 
 .intro
 {
+  font-family: Cambria, Georgia, serif;
   text-align: center;
   font-style: italic;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 120%;
   color: #4109ba;
+  padding-bottom: 1%;
+}
+
+.about
+{
+  font-size: 120%;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #12027c;
+
+}
+
+.headtext
+{
+  padding-right: 52%;
 }
 
 footer {
@@ -158,7 +184,7 @@ footer {
 }
 
 /* Change features as page size decreases*/
-@media (max-width: 1075px) {
+@media (max-width: 1190px) {
 
   body {
     background-color: gray;
@@ -171,14 +197,44 @@ footer {
     left: 54%;
     top: 67%;
 }
+.headtext
+{
+  padding-right: 45%;
+}
 
 }
+
+@media (max-width: 1025px) {
+
+  body {
+    background-color: turquoise;
+  }
+  .button1 {
+    left: 38%;
+    top: 67%;
+}
+.button2 {
+    left: 54%;
+    top: 67%;
+}
+
+.headtext
+{
+  padding-right: 36%;
+}
+
+}
+
 @media (max-width: 900px) {
 
   body {
     font-size: 95%;
     background-color: yellow;
   }
+  .headtext
+{
+  padding-right: 40%;
+}
 
 }
 @media (max-width: 850px) {
@@ -217,6 +273,10 @@ footer {
   .button1 {
     left: 34%;
 }
+.headtext
+{
+  padding-right: 36%;
+}
 
 }
 @media (max-width: 650px) {
@@ -250,6 +310,46 @@ footer {
     left: 30%;
 }
 
+.headtext
+{
+  padding-right: 30%;
+}
+
+}
+
+@media (max-width: 550px) {
+
+  body {
+    font-size: 80%;
+    background-color: pink;
+  }
+  .col
+  {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    
+  }
+  
+.title
+{
+    font-size: 320%;
+}
+.button1 {
+    left: 30%;
+}
+
+.header {
+padding: 5px 20px 5px 40px;
+}
+
+.headtext
+{
+  padding-right: 25%;
+}
+
+}
+
 @media (max-width: 495px) {
 
   body {
@@ -276,7 +376,18 @@ footer {
   top: 74%;
 }
 
+.header {
+padding: 5px 40px 5px 40px;
 }
+
+.headtext
+{
+  padding-right: 7%;
+}
+
+}
+
+
 @media (max-width: 412px) {
 
   body {
@@ -297,6 +408,17 @@ footer {
 }
 .button1 {
     left: 24%;
+}
+
+.header {
+font-size: 85%;
+padding: 5px 40px 5px 40px;
+}
+
+.headtext
+{
+
+  padding-right: 4%;
 }
 
 }

@@ -22,7 +22,7 @@ header {
 
 main {
   /* Set maximum width to be 800 pixels */
-  max-width: 1500px;
+  max-width: 3000px;
   /* Set margin to be automatically calculated on all sides */
   margin: auto;
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right *//*Padding is "body fat", whereas margins is "personal space" */
@@ -117,6 +117,8 @@ a:hover
   padding-left: 10%;
   height: auto;
   opacity: 1 ;
+  /*padding-top: 20%;
+  padding-bottom: 1%;*/
 }
 .back {
   /*position: absolute;*/
@@ -132,6 +134,8 @@ a:hover
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
     column-gap: 30px;
+    font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    text-align: center;
 }
 
 .header {
@@ -172,12 +176,22 @@ padding-right: 8%; }
   padding-top: 3%;
 }
 
+.space{ padding-bottom: 20%; }
+
 .about
 {
   font-size: 120%;
   font-family: Verdana, Geneva, sans-serif;
   color: #12027c;
+  padding-top: 40%;
+}
 
+.about2
+{
+  font-size: 120%;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #12027c;
+  padding-top: 46.5%;
 }
 
 .headtext
@@ -207,15 +221,15 @@ footer {
   .button1 {
     left: 38%;
     top: 67%;
-}
-.button2 {
-    left: 54%;
-    top: 67%;
-}
-.headtext
-{
-  padding-right: 45%;
-}
+  }
+  .button2 {
+      left: 54%;
+      top: 67%;
+  }
+  .headtext
+  {
+    padding-right: 45%;
+  }
 
 }
 
@@ -227,16 +241,16 @@ footer {
   .button1 {
     left: 38%;
     top: 67%;
-}
-.button2 {
-    left: 54%;
-    top: 67%;
-}
+  }
+  .button2 {
+      left: 54%;
+      top: 67%;
+  }
 
-.headtext
-{
-  padding-right: 36%;
-}
+  .headtext
+  {
+    padding-right: 36%;
+  }
 
 }
 
@@ -247,9 +261,9 @@ footer {
     background-color: yellow;
   }
   .headtext
-{
-  padding-right: 40%;
-}
+  {
+    padding-right: 40%;
+  }
 
 }
 @media (max-width: 850px) {
@@ -269,11 +283,11 @@ footer {
   .button1 {
     left: 34%;
     top: 63%;
-}
-.button2 {
-    left: 54%;
-    top: 63%;
-}
+  }
+  .button2 {
+      left: 54%;
+      top: 63%;
+  }
 
 }
 @media (max-width: 750px) {
@@ -294,14 +308,14 @@ footer {
   .button1 {
     left: 33%;
     top: 57%;
-}
-.button2 {
-  top: 57%;
-}
-.headtext
-{
-  padding-right: 36%;
-}
+  }
+  .button2 {
+    top: 57%;
+  }
+  .headtext
+  {
+    padding-right: 36%;
+  }
 
 }
 @media (max-width: 650px) {
@@ -326,25 +340,34 @@ footer {
     column-count: 1;
     
   }
+   .about
+  {
+    padding-top: 0%;
+  }
+  .about2
+  {
+    padding-top: 0%;
+  }
+  .space{ padding-bottom: 0%; }
 
   .iam{top: 23%;}
   
-.title
-{
-    top: 20%;
-    font-size: 320%;
-}
-.button1 {
-    top: 45%;
-    left: 31%;
-}
-.button2 {
-    top: 45%; }
+  .title
+  {
+      top: 20%;
+      font-size: 320%;
+  }
+  .button1 {
+      top: 45%;
+      left: 31%;
+  }
+  .button2 {
+      top: 45%; }
 
-.headtext
-{
-  padding-right: 30%;
-}
+  .headtext
+  {
+    padding-right: 30%;
+  }
 
 }
 
@@ -354,35 +377,28 @@ footer {
     font-size: 80%;
     background-color: pink;
   }
-  .col
-  {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-    
-  }
   
-.iam{top: 20%;}  
-.title
-{
+  .iam{top: 20%;}  
+  .title
+  {
     top: 17%;
     font-size: 320%;
-}
-.button1 {
+  }
+  .button1 {
     top: 42%;
     left: 30%;
-}
-.button2 {
+  }
+  .button2 {
     top: 42%; }
 
-.header {
-padding: 5px 20px 5px 40px;
-}
+  .header {
+    padding: 5px 20px 5px 40px;
+  }
 
-.headtext
-{
-  padding-right: 25%;
-}
+  .headtext
+  {
+    padding-right: 25%;
+  }
 
 }
 
@@ -392,37 +408,30 @@ padding: 5px 20px 5px 40px;
     font-size: 80%;
     background-color: maroon;
   }
-  .col
+
+  .iam{top: 15%;} 
+  .title
   {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-    
+      top: 12%;
+      font-size: 320%;
+  }
+  .button1 {
+      top: 37%;
+      left: 28%;
+      
+  }
+  .button2 {
+      top: 37%;
   }
 
-.iam{top: 15%;} 
-.title
-{
-    top: 12%;
-    font-size: 320%;
-}
-.button1 {
-    top: 37%;
-    left: 28%;
-    
-}
-.button2 {
-    top: 37%;
-}
+  .header {
+  padding: 5px 40px 5px 40px;
+  }
 
-.header {
-padding: 5px 40px 5px 40px;
-}
-
-.headtext
-{
-  padding-right: 7%;
-}
+  .headtext
+  {
+    padding-right: 7%;
+  }
 
 }
 
@@ -434,37 +443,29 @@ padding: 5px 40px 5px 40px;
     background-color: cyan;
   }
 
-  .col
+  .iam{top: 10%;} 
+  .title
   {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-    
+      top: 10%;
+      font-size: 260%;
+  }
+  .button1 {
+      top: 30%;
+      left: 22%;
+  }
+  .button2 {
+      top: 30%;
   }
 
-.iam{top: 10%;} 
-.title
-{
-    top: 10%;
-    font-size: 260%;
-}
-.button1 {
-    top: 30%;
-    left: 22%;
-}
-.button2 {
-    top: 30%;
-}
+  .header {
+  font-size: 85%;
+  padding: 5px 40px 5px 40px;
+  }
 
-.header {
-font-size: 85%;
-padding: 5px 40px 5px 40px;
-}
+  .headtext
+  {
 
-.headtext
-{
-
-  padding-right: 4%;
-}
+    padding-right: 4%;
+  }
 
 }

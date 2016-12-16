@@ -1,8 +1,8 @@
 /* Change features as page size decreases*/
-@media (max-width: 1190px) {
+@media screen and (max-width: 1190px) {
 
   body {
-    background-color: gray;
+    color: gray;
   }
   .button1 {
     left: 38%;
@@ -16,13 +16,14 @@
   {
     padding-right: 45%;
   }
-
+  #wind {padding-left: 2%;}
+  
 }
 
-@media (max-width: 1025px) {
+@media screen and (max-width: 1025px) {
 
   body {
-    background-color: turquoise;
+    color: turquoise;
   }
   .button1 {
     left: 38%;
@@ -37,34 +38,38 @@
   {
     padding-right: 36%;
   }
+  #wind {font-size: 90%;}
+  #solid{padding-left: 6%;}
+  #cpp{padding-left: 6%;}
 
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
   body {
     font-size: 95%;
-    background-color: yellow;
+    color: yellow;
   }
   .headtext
   {
     padding-right: 40%;
   }
+  #wind {padding-left: 3%;}
 
 }
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
 
   body {
     font-size: 92%;
-    background-color: green;
+    color: green;
   }
 
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
   body {
     font-size: 90%;
-    background-color: blue;
+    color: blue;
   }
   .button1 {
     left: 34%;
@@ -74,22 +79,23 @@
       left: 54%;
       top: 63%;
   }
+  .portpad{padding-right: 2%;}
 
 }
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
 
   body {
     font-size: 87%;
-    background-color: pink;
+    color: pink;
   }
   
 
 }
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
 
   body {
     font-size: 85%;
-    background-color: purple;
+    color: purple;
   }
   .button1 {
     left: 33%;
@@ -102,22 +108,23 @@
   {
     padding-right: 36%;
   }
+  #wind {padding-left: 2%;}
 
 }
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
 
   body {
     font-size: 82%;
-    background-color: red;
+    color: red;
   }
 
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
   body {
     font-size: 80%;
-    background-color: orange;
+    color: orange;
   }
   .col
   {
@@ -155,13 +162,23 @@
     padding-right: 30%;
   }
 
+  .portpics {max-width: 100%;}
+  .cent
+  {
+
+    padding-bottom: 20%;
+  }
+  #wind{font-size: 150%; padding-left: 20%;}
+  #solid{font-size: 150%; padding-left: 30%;}
+  #cpp{font-size: 150%; padding-left: 30%;}
+
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width: 550px) {
 
   body {
     font-size: 80%;
-    background-color: pink;
+    color: pink;
   }
   
   .iam{top: 20%;}  
@@ -188,11 +205,11 @@
 
 }
 
-@media (max-width: 495px) {
+@media screen and (max-width: 495px) {
 
   body {
     font-size: 80%;
-    background-color: maroon;
+    color: maroon;
   }
 
   .iam{top: 15%;} 
@@ -222,11 +239,11 @@
 }
 
 
-@media (max-width: 412px) {
+@media screen and (max-width: 412px) {
 
   body {
     font-size: 80%;
-    background-color: cyan;
+    color: cyan;
   }
 
   .iam{top: 10%;} 
@@ -253,5 +270,9 @@
 
     padding-right: 4%;
   }
+  .cent{padding-bottom: 17%;}
+  #wind{font-size: 130%; padding-left: 17%;}
+  #solid{padding-left: 22%;}
+  #cpp{padding-left: 22%;}
 
 }

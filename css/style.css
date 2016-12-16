@@ -70,7 +70,6 @@ a:hover
     text-align: center;
     font-size: 400%;
     color: black;
-    /*#87F;*/
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
 }
 
@@ -152,7 +151,7 @@ a:hover
     padding: 5px 0px 5px 40px;
     text-indent: 40px;
     white-space: pre-wrap;
-    z-index: 1;
+    z-index: 2;
 }
 
 #pad
@@ -160,7 +159,8 @@ a:hover
   padding-top: 50%;
 }
 
-#box{background-color: white;
+
+.box{background-color: white;
 padding-bottom: 1%;
 padding-left: 8%;
 padding-right: 8%; }
@@ -213,3 +213,27 @@ footer {
   margin-top: 0px;
 }
 
+/*For portfolio and experience pages*/
+
+#titleP
+{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    position: absolute;
+    font-size: 300%;
+    color: black;
+    text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+    left: 5%;
+    top: 5%;
+}
+
+#padP {padding-top: 11%;}
+
+#boxP
+{
+    background-color: white;
+    padding-bottom: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+
+}

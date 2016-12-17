@@ -219,14 +219,14 @@ footer {
 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     position: absolute;
-    font-size: 300%;
+    font-size: 400%;
     color: black;
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
     left: 5%;
     top: 5%;
 }
 
-#padP {padding-top: 11%;}
+#padP {padding-top: 12%;}
 
 #boxP
 {

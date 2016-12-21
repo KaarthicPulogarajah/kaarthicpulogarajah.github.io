@@ -46,6 +46,11 @@ a:hover
       z-index: -1;
 }
 
+#block
+{
+
+}
+
 .iam {
     font-family: "Book Antiqua", "Palatino Linotype", serif;
     position: absolute;
@@ -58,6 +63,8 @@ a:hover
     font-style: oblique;
    /*#87F;*/
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
+    font-weight: bold;
+    margin-bottom: 10%;
 
 }
 .title
@@ -65,12 +72,13 @@ a:hover
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     position: absolute;
     left: 0;
-    top: 25%;
+    top: 29%;
     width: 100%;
     text-align: center;
     font-size: 400%;
     color: black;
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
+    font-weight: 700;
 }
 
 .button1 {
@@ -86,6 +94,8 @@ a:hover
     padding: 4px 10px;
     margin: 2px 2px;
     cursor: pointer;
+    z-index: 4;
+
 }
 .button1:hover {
    

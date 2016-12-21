@@ -335,6 +335,8 @@
     font-size: 95%;
     color: yellow;
   }
+  .button1{ left: 36%; top: 55%;}
+  .button2{top: 55%;}
   .headtext
   {
     padding-right: 40%;
@@ -356,13 +358,16 @@
     font-size: 90%;
     color: blue;
   }
+  .iam{top: 23%;}
+  .title{top: 20%;}
   .button1 {
+    top: 47%;
     left: 34%;
-    top: 63%;
+    
   }
   .button2 {
-      left: 54%;
-      top: 63%;
+    top: 47%;
+    left: 54%;  
   }
   .portpad{padding-right: 2%;}
 
@@ -382,12 +387,15 @@
     font-size: 85%;
     color: purple;
   }
+  .iam{top: 23%;}
+  .title{top: 18%;}
   .button1 {
+    top: 45%;
     left: 33%;
-    top: 57%;
+    
   }
   .button2 {
-    top: 57%;
+    top: 45%;
   }
   .headtext
   {
@@ -402,6 +410,8 @@
     font-size: 82%;
     color: red;
   }
+  .button1{ }
+  .button2{  }
 
 }
 
@@ -436,11 +446,10 @@
       font-size: 320%;
   }
   .button1 {
-      top: 45%;
-      left: 31%;
+    top: 40%;
+    left: 31%;
   }
-  .button2 {
-      top: 45%; }
+  .button2 {top:40%;}
 
   .headtext
   {
@@ -473,12 +482,11 @@
     font-size: 320%;
   }
   .button1 {
-    top: 42%;
+    top: 37%;
     left: 30%;
   }
-  .button2 {
-    top: 42%; }
-
+  .button2 {top: 37%;}
+ 
   .header {
     padding: 5px 20px 5px 40px;
   }
@@ -504,13 +512,11 @@
       font-size: 320%;
   }
   .button1 {
-      top: 37%;
-      left: 28%;
+    top: 30%;
+    left: 28%;
       
   }
-  .button2 {
-      top: 37%;
-  }
+  .button2 { top: 30%; }
 
   .header {
   padding: 5px 40px 5px 40px;
@@ -518,9 +524,15 @@
 
   .headtext
   {
-    padding-right: 7%;
+    padding-right: 20%;
   }
 
+}
+@media handheld,screen and (max-width: 449px) {
+.headtext
+  {
+    padding-right: 12%;
+  }
 }
 
 
@@ -538,26 +550,37 @@
       font-size: 260%;
   }
   .button1 {
-      top: 30%;
-      left: 22%;
+    top: 25%;  
+    left: 22%;
+    font-size: 110%;
   }
   .button2 {
-      top: 30%;
+    font-size: 110%;
+    top: 25%;
   }
 
   .header {
-  font-size: 85%;
-  padding: 5px 40px 5px 40px;
+  font-size: 75%;
+  padding: 5px 20px 5px 40px;
   }
 
   .headtext
   {
 
-    padding-right: 4%;
+    padding-right: 25%;
   }
   .cent{padding-bottom: 17%;}
   #wind{font-size: 130%; padding-left: 17%;}
   #solid{padding-left: 22%;}
   #cpp{padding-left: 22%;}
+
+}
+@media handheld,screen and (max-width: 362px) {
+
+  .headtext
+  {
+
+    padding-right: 15%;
+  }
 
 }

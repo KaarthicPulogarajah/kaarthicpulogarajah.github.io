@@ -1,11 +1,11 @@
 
-@media screen and (min-width: 1190px) {
+/*@media (min-width: 1190px) {
 
   body {
     color: gray;
   }
   .button1 {
-    left: 38%;
+    left: 38%;  
     top: 67%;
   }
   .button2 {
@@ -128,8 +128,8 @@
   }
   .col
   {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
+    -webkit-column-count: 1;
+    -moz-column-count: 1; 
     column-count: 1;
     
   }
@@ -278,13 +278,13 @@
   #cpp{padding-left: 32%; font-size: 300%;}
   #titleP{top:1%;}
 
-}
+}*/
 
 
 
 
 /* Change features as page size decreases*/
-/*@media screen and (max-width: 1190px) {
+@media handheld, screen and (max-width: 1190px) {
 
   body {
     color: gray;
@@ -305,7 +305,7 @@
   
 }
 
-@media screen and (max-width: 1025px) {
+@media handheld, screen and (max-width: 1025px) {
 
   body {
     color: turquoise;
@@ -329,7 +329,7 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media handheld, screen and (max-width: 900px) {
 
   body {
     font-size: 95%;
@@ -342,7 +342,7 @@
   #wind {padding-left: 3%;}
 
 }
-@media screen and (max-width: 850px) {
+@media handheld,screen and (max-width: 850px) {
 
   body {
     font-size: 92%;
@@ -350,7 +350,7 @@
   }
 
 }
-@media screen and (max-width: 800px) {
+@media handheld,screen and (max-width: 800px) {
 
   body {
     font-size: 90%;
@@ -367,7 +367,7 @@
   .portpad{padding-right: 2%;}
 
 }
-@media screen and (max-width: 750px) {
+@media handheld,screen and (max-width: 750px) {
 
   body {
     font-size: 87%;
@@ -376,7 +376,7 @@
   
 
 }
-@media screen and (max-width: 700px) {
+@media handheld,screen and (max-width: 700px) {
 
   body {
     font-size: 85%;
@@ -396,7 +396,7 @@
   #wind {padding-left: 2%;}
 
 }
-@media screen and (max-width: 650px) {
+@media handheld,screen and (max-width: 650px) {
 
   body {
     font-size: 82%;
@@ -405,7 +405,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media handheld,screen and (max-width: 600px) {
 
   body {
     font-size: 80%;
@@ -459,7 +459,7 @@
 
 }
 
-@media screen and (max-width: 550px) {
+@media handheld,screen and (max-width: 550px) {
 
   body {
     font-size: 80%;
@@ -490,7 +490,7 @@
 
 }
 
-@media screen and (max-width: 495px) {
+@media handheld,screen and (max-width: 495px) {
 
   body {
     font-size: 80%;
@@ -524,7 +524,7 @@
 }
 
 
-@media screen and (max-width: 412px) {
+@media handheld,screen and (max-width: 412px) {
 
   body {
     font-size: 80%;

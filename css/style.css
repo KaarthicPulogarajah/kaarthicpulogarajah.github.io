@@ -94,7 +94,7 @@ a:hover
     padding: 4px 10px;
     margin: 2px 2px;
     cursor: pointer;
-    z-index: 4;
+    
 
 }
 .button1:hover {
@@ -149,7 +149,7 @@ a:hover
 }
 
 .header {
-    background-color: #ccc;
+    background-color: #63B4D1;
     width: 100%;						
     position: fixed;
     top: 0;
@@ -229,7 +229,7 @@ footer {
 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     position: absolute;
-    font-size: 400%;
+    font-size: 350%;
     color: black;
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
     left: 5%;

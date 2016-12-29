@@ -387,7 +387,7 @@
     font-size: 85%;
     color: purple;
   }
-  .iam{top: 23%;}
+  .iam{top: 20%;}
   .title{top: 18%;}
   .button1 {
     top: 45%;
@@ -438,7 +438,7 @@
   }
   .space{ padding-bottom: 0%; }
 
-  .iam{top: 23%;}
+  .iam{top: 21%;}
   
   .title
   {
@@ -475,7 +475,7 @@
     color: pink;
   }
   
-  .iam{top: 20%;}  
+  .iam{top: 18%;}  
   .title
   {
     top: 17%;
@@ -498,14 +498,14 @@
 
 }
 
-@media handheld,screen and (max-width: 495px) {
+@media handheld,screen and (max-width: 497px) {
 
   body {
     font-size: 80%;
     color: maroon;
   }
 
-  .iam{top: 15%;} 
+  .iam{top: 12%;} 
   .title
   {
       top: 12%;

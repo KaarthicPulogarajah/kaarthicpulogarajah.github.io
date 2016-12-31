@@ -225,7 +225,7 @@ footer {
 
 /*For portfolio and experience pages*/
 
-#titleP
+.titleP
 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     position: absolute;
@@ -236,9 +236,9 @@ footer {
     top: 5%;
 }
 
-#padP {padding-top: 12%;}
+.padP {padding-top: 12%;}
 
-#boxP
+.boxP
 {
     background-color: white;
     padding-bottom: 1%;

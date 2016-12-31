@@ -19,7 +19,7 @@ h2
 img.portpics:hover
 {
   opacity: 0.4;
-  
+  cursor: pointer;
 }
 
 .portpad{padding-right: 3%;}
@@ -57,8 +57,158 @@ img.portpics:hover
   opacity: 1;
 }
 
-#wind{padding-left: 5%; }
-#solid{padding-left: 7%;}
-#cpp{padding-left: 8%;}
-#game{padding-left: 10%;}
-#battleship{padding-left: 9%;}
+.cent.wind{padding-left: 5%; }
+.cent.solid{padding-left: 7%;}
+.cent.cpp{padding-left: 8%;}
+.cent.game{padding-left: 10%;}
+.cent.battleship{padding-left: 9%;}
+
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 6; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Add Animation */
+.modal-content, #caption1 {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#portpic1, #portpic2, #portpic3, #portpic4, #portpic5, #portpic6
+{
+  max-width: 30%;
+  height: auto;
+  opacity: 1;
+  border: solid;
+  border-radius: 40px;
+}
+
+#portpic1:hover, #portpic2:hover, #portpic3:hover, #portpic4:hover, #portpic5:hover, #portpic6:hover
+{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+#caption1, #caption2, #caption3, #caption4, #caption5, #caption6
+{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 300px;
+}
+
+/*#portpic2
+{
+  max-width: 30%;
+  height: auto;
+  opacity: 1;
+  border: solid;
+  border-radius: 40px;
+}
+
+#portpic2:hover
+{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+#portpic3
+{
+  max-width: 30%;
+  height: auto;
+  opacity: 1;
+  border: solid;
+  border-radius: 40px;
+}
+
+#portpic3:hover
+{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+#portpic4
+{
+  max-width: 30%;
+  height: auto;
+  opacity: 1;
+  border: solid;
+  border-radius: 40px;
+}
+
+#portpic4:hover
+{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+#portpic5
+{
+  max-width: 30%;
+  height: auto;
+  opacity: 1;
+  border: solid;
+  border-radius: 40px;
+}
+
+#portpic5:hover
+{
+  opacity: 0.4;
+  cursor: pointer;
+}*/

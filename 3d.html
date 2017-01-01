@@ -6,8 +6,7 @@
 	<link rel="shortcut icon" href="img/icon4.png"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
-	<link rel="stylesheet" type="text/css" href="css/media	.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
 <header>
 			<div class="container">
@@ -22,14 +21,17 @@
 
 		<p class = "titleP">3D Modelling</p>
 		<p class = "padP"></p>
+		
 		<div class = "boxP">
+		<!-- <div class="col"> -->
 			<span class="cont">
 				<img id = "portpic6" src="img/battleship.jpg">
-				<p class="cent wind">Formula Motorsports</p>
+				<p class="cent">Formula Motorsports</p>
 
 				<div id="myModal6" class="modal">
 				  <span class="close">&times;</span>
 				  <img class="modal-content" id="img06">
+				  <div id="caption6"></div>
 				</div>
 				<script>
 					var modal = document.getElementById('myModal6');
@@ -37,10 +39,12 @@
 				// Get the image and insert it inside the modal
 					var img = document.getElementById("portpic6");
 					var modalImg = document.getElementById("img06");
+					var captionText = document.getElementById("caption6");
 					img.onclick = function(){
 					    modal.style.display = "block";
 					    modalImg.src = this.src;
-					    captionText.innerHTML = "team";
+					    modalImg.alt = this.alt;
+					    captionText.innerHTML = "hello";
 					}
 
 					// Get the <span> element that closes the modal
@@ -55,8 +59,8 @@
 			</span>
 			<span class="portpad"></span>
 			<span class="cont">
-				<img id = "portpic1" src="img/waterpump.jpg">
-				<p class="cent cpp">Water Pump</p>
+				<img id = "portpic1" src="img/waterpump.jpg" >
+				<p class="cent">Water Pump</p>
 
 				<div id="myModal1" class="modal">
 				  <span class="close">&times;</span>
@@ -89,11 +93,12 @@
 			<span class="portpad"></span>
 			<span class="cont">
 				<img id = "portpic2" src="img/cellphonestand.png">
-				<p class="cent solid">Cell Phone Stand</p>
+				<p class="cent">Cell Phone Stand</p>
 
 				<div id="myModal2" class="modal">
 				  <span class="close">&times;</span>
 				  <img class="modal-content" id="img02">
+				  <div id="caption2"></div>
 				</div>
 				<script>
 					var modal = document.getElementById('myModal2');
@@ -101,6 +106,7 @@
 				// Get the image and insert it inside the modal
 					var img = document.getElementById("portpic2");
 					var modalImg = document.getElementById("img02");
+					var captionText = document.getElementById("caption2");
 					img.onclick = function(){
 					    modal.style.display = "block";
 					    modalImg.src = this.src;
@@ -119,11 +125,12 @@
 			<br><br>
 			<span class="cont">
 				<img id = "portpic3" src="img/Trophy Base.jpg">
-				<p class="cent game">Trophy</p>
+				<p class="cent">Trophy</p>
 
 				<div id="myModal3" class="modal">
 				  <span class="close">&times;</span>
 				  <img class="modal-content" id="img03">
+				  <div id="caption3"></div>
 				</div>
 				<script>
 					var modal = document.getElementById('myModal3');
@@ -131,10 +138,11 @@
 				// Get the image and insert it inside the modal
 					var img = document.getElementById("portpic3");
 					var modalImg = document.getElementById("img03");
+					var captionText = document.getElementById("caption3");
 					img.onclick = function(){
 					    modal.style.display = "block";
 					    modalImg.src = this.src;
-					    captionText.innerHTML = "team";
+					    captionText.innerHTML = "rawr";
 					}
 
 					// Get the <span> element that closes the modal
@@ -150,11 +158,12 @@
 			<span class="portpad"></span>
 			<span class="cont">
 				<img id = "portpic4" src="img/matinv.png">
-				<p class="cent solid">ME100</p>
+				<p class="cent">ME100</p>
 
 				<div id="myModal4" class="modal">
 				  <span class="close">&times;</span>
 				  <img class="modal-content" id="img04">
+				  <div id="caption4"></div>
 				</div>
 				<script>
 					var modal = document.getElementById('myModal4');
@@ -162,10 +171,11 @@
 				// Get the image and insert it inside the modal
 					var img = document.getElementById("portpic4");
 					var modalImg = document.getElementById("img04");
+					var captionText = document.getElementById("caption4");
 					img.onclick = function(){
 					    modal.style.display = "block";
 					    modalImg.src = this.src;
-					    captionText.innerHTML = "team";
+					    captionText.innerHTML = "huehue";
 					}
 
 					// Get the <span> element that closes the modal
@@ -181,11 +191,12 @@
 			<span class="portpad"></span>
 			<span class="cont">
 				<img id = "portpic5" src="img/horse4.jpg">
-				<p class="cent solid">Rocking Horse</p>
+				<p class="cent">Rocking Horse</p>
 
 				<div id="myModal5" class="modal">
 				  <span class="close">&times;</span>
 				  <img class="modal-content" id="img05">
+				  <div id="caption5"></div>
 				</div>
 				<script>
 					var modal = document.getElementById('myModal5');
@@ -193,10 +204,11 @@
 				// Get the image and insert it inside the modal
 					var img = document.getElementById("portpic5");
 					var modalImg = document.getElementById("img05");
+					var captionText = document.getElementById("caption5");
 					img.onclick = function(){
 					    modal.style.display = "block";
 					    modalImg.src = this.src;
-					    captionText.innerHTML = "team";
+					    captionText.innerHTML = "blub";
 					}
 
 					// Get the <span> element that closes the modal
@@ -209,6 +221,7 @@
 				</script>
 
 			</span>
+		<!-- </div> -->
 		</div>
 
 

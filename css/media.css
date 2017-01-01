@@ -301,8 +301,6 @@
   {
     padding-right: 45%;
   }
-  #wind {padding-left: 2%;}
-  
 }
 
 @media handheld, screen and (max-width: 1025px) {
@@ -323,10 +321,6 @@
   {
     padding-right: 36%;
   }
-  #wind {font-size: 90%;}
-  #solid{padding-left: 6%;}
-  #cpp{padding-left: 6%;}
-
 }
 
 @media handheld, screen and (max-width: 900px) {
@@ -341,7 +335,6 @@
   {
     padding-right: 40%;
   }
-  #wind {padding-left: 3%;}
 
 }
 @media handheld,screen and (max-width: 850px) {
@@ -428,6 +421,8 @@
     column-count: 1;
     
   }
+  #portpic1, #portpic2, #portpic3, #portpic4, #portpic5, #portpic6{max-width: 100%;}
+
    .about
   {
     padding-top: 0%;
@@ -459,12 +454,9 @@
   .portpics {max-width: 100%;}
   .cent
   {
-
+    font-size: 175%;
     padding-bottom: 20%;
   }
-  #wind{font-size: 150%; padding-left: 20%;}
-  #solid{font-size: 150%; padding-left: 30%;}
-  #cpp{font-size: 150%; padding-left: 30%;}
 
 }
 
@@ -570,9 +562,6 @@
     padding-right: 25%;
   }
   .cent{padding-bottom: 17%;}
-  #wind{font-size: 130%; padding-left: 17%;}
-  #solid{padding-left: 22%;}
-  #cpp{padding-left: 22%;}
 
 }
 @media handheld,screen and (max-width: 362px) {

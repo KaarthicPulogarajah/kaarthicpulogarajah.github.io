@@ -48,7 +48,7 @@ img.portpics:hover
 
   visibility: hidden;
   opacity: 0;
-
+  text-align: center;
   -webkit-transition: visibility opacity 0.2s;
   
 }
@@ -57,12 +57,12 @@ img.portpics:hover
   opacity: 1;
 }
 
-.cent.wind{padding-left: 5%; }
+/*.cent.wind{padding-left: 5%; }
 .cent.solid{padding-left: 7%;}
 .cent.cpp{padding-left: 8%;}
 .cent.game{padding-left: 10%;}
 .cent.battleship{padding-left: 9%;}
-
+*/
 
 
 
@@ -90,7 +90,8 @@ img.portpics:hover
 }
 
 /* Add Animation */
-.modal-content, #caption1 {    
+.modal-content, #caption1, #caption2, #caption3, #caption4, #caption5, #caption6
+{    
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -148,7 +149,7 @@ img.portpics:hover
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+    color: green;
     padding: 10px 0;
     height: 300px;
 }

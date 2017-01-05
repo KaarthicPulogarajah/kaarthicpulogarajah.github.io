@@ -36,7 +36,7 @@
 				<script>
 					var modal = document.getElementById('myModal6');
 
-				// Get the image and insert it inside the modal
+					// Get the image and insert it inside the modal
 					var img = document.getElementById("portpic6");
 					var modalImg = document.getElementById("img06");
 					var captionText = document.getElementById("caption6");
@@ -76,8 +76,8 @@
 				var captionText = document.getElementById("caption1");
 				img.onclick = function(){
 				    modal.style.display = "block";
-				    modalImg.src = this.src;
-				    captionText.innerHTML = "HELLO";
+				    modalImg.src = "img/waterpumpback.png";
+				    captionText.innerHTML = "I made this water pump using ProDesktop as an assembly consisting of several parts, and using many features such as sweep, helix, shell, loft, fillet, and extrude.";
 				}
 
 				// Get the <span> element that closes the modal
@@ -109,8 +109,8 @@
 					var captionText = document.getElementById("caption2");
 					img.onclick = function(){
 					    modal.style.display = "block";
-					    modalImg.src = this.src;
-					    captionText.innerHTML = "team";
+					    modalImg.src = "img/cellphoneback.png";
+					    captionText.innerHTML = "I designed this cell phone stand using Solidworks with the constraint of using 2 cubic inches of material maximum. The stand was designed to hold a Samsung S4 at two different angles in either orientation. After 3D printing the phone stand, the design proved to be effective.";
 					}
 
 					// Get the <span> element that closes the modal
@@ -124,7 +124,7 @@
 			</span>
 			<br><br>
 			<span class="cont">
-				<img id = "portpic3" src="img/Trophy Base.jpg">
+				<img id = "portpic3" src="img/trophy1.png">
 				<p class="cent">Trophy</p>
 
 				<div id="myModal3" class="modal">
@@ -141,8 +141,8 @@
 					var captionText = document.getElementById("caption3");
 					img.onclick = function(){
 					    modal.style.display = "block";
-					    modalImg.src = this.src;
-					    captionText.innerHTML = "rawr";
+					    modalImg.src = "img/trophyback.png";
+					    captionText.innerHTML = "<br>I created a model of a trophy using ProDesktop, then rendered the original model. <br>Rendering options: burnished gold material, room lighting, 50mm camera lens.";
 					}
 
 					// Get the <span> element that closes the modal
@@ -155,7 +155,7 @@
 				</script>
 
 			</span>
-			<span class="portpad"></span>
+			<!-- <span class="portpad"></span>
 			<span class="cont">
 				<img id = "portpic4" src="img/matinv.png">
 				<p class="cent">ME100</p>
@@ -187,7 +187,7 @@
 					}
 				</script>
 
-			</span>
+			</span> -->
 			<span class="portpad"></span>
 			<span class="cont">
 				<img id = "portpic5" src="img/horse4.jpg">
@@ -212,7 +212,7 @@
 					}
 
 					// Get the <span> element that closes the modal
-					var span = document.getElementsByClassName("close")[5];
+					var span = document.getElementsByClassName("close")[4];
 
 					// When the user clicks on <span> (x), close the modal
 					span.onclick = function() { 

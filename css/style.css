@@ -161,7 +161,7 @@ a:hover
     padding: 5px 0px 5px 40px;
     text-indent: 40px;
     white-space: pre-wrap;
-    z-index: 2;
+    z-index: 5;
 }
 
 #pad

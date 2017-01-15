@@ -1,293 +1,10 @@
 
-/*@media (min-width: 1190px) {
-
-  body {
-    color: gray;
-  }
-  .button1 {
-    left: 38%;  
-    top: 67%;
-  }
-  .button2 {
-      left: 54%;
-      top: 67%;
-  }
-  .headtext
-  {
-    padding-right: 45%;
-  }
-  #wind {padding-left: 2%;}
-  
-}
-
-@media (min-width: 1025px) {
-
-  body {
-    color: turquoise;
-  }
-  .button1 {
-    left: 38%;
-    top: 67%;
-  }
-  .button2 {
-      left: 54%;
-      top: 67%;
-  }
-
-  .headtext
-  {
-    padding-right: 36%;
-  }
-  #wind {font-size: 90%;}
-  #solid{padding-left: 6%;}
-  #cpp{padding-left: 6%;}
-
-}
-
-@media (min-width: 900px) {
-
-  body {
-    font-size: 95%;
-    color: yellow;
-  }
-  .headtext
-  {
-    padding-right: 40%;
-  }
-  #wind {padding-left: 3%;}
-
-}
-@media (min-width: 850px) {
-
-  body {
-    font-size: 92%;
-    color: green;
-  }
-
-}
-@media (min-width: 800px) {
-
-  body {
-    font-size: 90%;
-    color: blue;
-  }
-  .button1 {
-    left: 34%;
-    top: 63%;
-  }
-  .button2 {
-      left: 54%;
-      top: 63%;
-  }
-  .portpad{padding-right: 2%;}
-
-}
-@media (min-width: 750px) {
-
-  body {
-    font-size: 87%;
-    color: pink;
-  }
-  
-
-}
-@media (min-width: 700px) {
-
-  body {
-    font-size: 85%;
-    color: purple;
-  }
-  .button1 {
-    left: 33%;
-    top: 57%;
-  }
-  .button2 {
-    top: 57%;
-  }
-  .headtext
-  {
-    padding-right: 36%;
-  }
-  #wind {padding-left: 2%;}
-
-}
-@media (min-width: 650px) {
-
-  body {
-    font-size: 82%;
-    color: red;
-  }
-
-}
-
-@media (min-width: 600px) {
-
-  body {
-    font-size: 80%;
-    color: orange;
-  }
-  .col
-  {
-    -webkit-column-count: 1;
-    -moz-column-count: 1; 
-    column-count: 1;
-    
-  }
-   .about
-  {
-    padding-top: 0%;
-  }
-  .about2
-  {
-    padding-top: 0%;
-  }
-  .space{ padding-bottom: 0%; }
-
-  .iam{top: 23%;}
-  
-  .title
-  {
-      top: 20%;
-      font-size: 320%;
-  }
-  .button1 {
-      top: 45%;
-      left: 31%;
-  }
-  .button2 {
-      top: 45%; }
-
-  .headtext
-  {
-    padding-right: 30%;
-  }
-
-  .portpics {min-width: 100%;}
-  .cent
-  {
-
-    padding-bottom: 20%;
-  }
-  #wind{font-size: 150%; padding-left: 20%;}
-  #solid{font-size: 150%; padding-left: 30%;}
-  #cpp{font-size: 150%; padding-left: 30%;}
-
-}
-
-@media (min-width: 550px) {
-
-  body {
-    font-size: 80%;
-    color: pink;
-  }
-  
-  .iam{top: 20%;}  
-  .title
-  {
-    top: 17%;
-    font-size: 320%;
-  }
-  .button1 {
-    top: 42%;
-    left: 30%;
-  }
-  .button2 {
-    top: 42%; }
-
-  .header {
-    padding: 5px 20px 5px 40px;
-  }
-
-  .headtext
-  {
-    padding-right: 25%;
-  }
-
-}
-
-@media (min-width: 495px) {
-
-  body {
-    font-size: 80%;
-    color: maroon;
-  }
-
-  .iam{top: 15%;} 
-  .title
-  {
-      top: 12%;
-      font-size: 320%;
-  }
-  .button1 {
-      top: 37%;
-      left: 28%;
-      
-  }
-  .button2 {
-      top: 37%;
-  }
-
-  .header {
-  padding: 5px 40px 5px 40px;
-  }
-
-  .headtext
-  {
-    padding-right: 7%;
-  }
-
-}
-
-
-@media (min-width: 412px) {
-
-  body {
-    font-size: 80%;
-    color: cyan;
-  }
-
-  .iam{top: 8%; font-size: 300%;} 
-  .title
-  {
-      top: 8%;
-      font-size: 600%;
-  }
-  .button1 {
-      top: 20%;
-      left: 31%;
-      font-size: 200%;
-  }
-  .button2 {
-      top: 20%;
-      font-size: 200%;
-  }
-
-  .header {
-  font-size: 200%;
-  padding: 5px 40px 5px 40px;
-  }
-
-  .headtext
-  {
-
-    padding-right: 30%;
-  }
-  .cent{padding-bottom: 19%;}
-  #wind{font-size: 300%; padding-left: 26%;}
-  #solid{padding-left: 32%; font-size: 300%;}
-  #cpp{padding-left: 32%; font-size: 300%;}
-  #titleP{top:1%;}
-
-}*/
-
-
-
 
 /* Change features as page size decreases*/
 @media handheld, screen and (max-width: 1190px) {
 
   body {
-    color: gray;
+   /* color: gray;*/
   }
   .button1 {
     left: 38%;
@@ -301,12 +18,28 @@
   {
     padding-right: 45%;
   }
+   .titleP
+  {
+    font-size: 350%;
+    top: 1%;
+  }
+  #titleF
+  {
+    font-size: 300%;
+    top: 3%;
+  }
+  #titleW
+  {
+    font-size: 300%;
+    top: 3%;
+  }
+   .logo{max-width: 3%;}
 }
 
 @media handheld, screen and (max-width: 1025px) {
 
   body {
-    color: turquoise;
+    /*color: turquoise;*/
   }
   .button1 {
     left: 38%;
@@ -320,6 +53,11 @@
   .headtext
   {
     padding-right: 36%;
+  }
+  #titleF
+  {
+    font-size: 275%;
+    top: 3%;
   }
 }
 
@@ -327,7 +65,7 @@
 
   body {
     font-size: 95%;
-    color: yellow;
+    /*color: yellow;*/
   }
   .button1{ left: 36%; top: 55%;}
   .button2{top: 55%;}
@@ -341,7 +79,7 @@
 
   body {
     font-size: 92%;
-    color: green;
+    /*color: green;*/
   }
 
 }
@@ -349,7 +87,7 @@
 
   body {
     font-size: 90%;
-    color: blue;
+   /* color: blue;*/
   }
   .iam{top: 23%;}
   .title{top: 20%;}
@@ -369,7 +107,7 @@
 
   body {
     font-size: 87%;
-    color: pink;
+   /* color: pink;*/
   }
   
 
@@ -378,7 +116,7 @@
 
   body {
     font-size: 85%;
-    color: purple;
+    /*color: purple;*/
   }
   .iam{top: 20%;}
   .title{top: 18%;}
@@ -396,12 +134,28 @@
   }
   #wind {padding-left: 2%;}
 
+   .titleP
+  {
+    font-size: 300%;
+    top: 1%;
+  }
+  #titleF
+  {
+    font-size: 250%;
+    top: 3%;
+  }
+  #titleW
+  {
+    font-size: 250%;
+    top: 3%;
+  }
+
 }
 @media handheld,screen and (max-width: 650px) {
 
   body {
     font-size: 82%;
-    color: red;
+    /*color: red;*/
   }
   .button1{ }
   .button2{  }
@@ -412,7 +166,7 @@
 
   body {
     font-size: 80%;
-    color: orange;
+    /*color: orange;*/
   }
   .col
   {
@@ -457,6 +211,7 @@
     font-size: 175%;
     padding-bottom: 20%;
   }
+ 
 
 }
 
@@ -464,7 +219,7 @@
 
   body {
     font-size: 80%;
-    color: pink;
+    /*color: pink;*/
   }
   
   .iam{top: 18%;}  
@@ -494,7 +249,7 @@
 
   body {
     font-size: 80%;
-    color: maroon;
+    /*color: maroon;*/
   }
 
   .iam{top: 12%;} 
@@ -518,6 +273,22 @@
   {
     padding-right: 20%;
   }
+   .titleP
+  {
+    font-size: 250%;
+    top: 1%;
+  }
+  #titleF
+  {
+    font-size: 200%;
+    top: 3%;
+  }
+  #titleW
+  {
+    font-size: 200%;
+    top: 3%;
+  }
+  .logo{max-width: 4%;}
 
 }
 @media handheld,screen and (max-width: 449px) {
@@ -532,10 +303,10 @@
 
   body {
     font-size: 80%;
-    color: cyan;
+   /* color: cyan;*/
   }
 
-  .iam{top: 10%;} 
+  .iam{top: 8%;} 
   .title
   {
       top: 10%;
@@ -562,6 +333,23 @@
     padding-right: 25%;
   }
   .cent{padding-bottom: 17%;}
+
+  .titleP
+  {
+    font-size: 200%;
+    top: 1%;
+  }
+  #titleF
+  {
+    font-size: 150%;
+    top: 3%;
+  }
+  #titleW
+  {
+    font-size: 150%;
+    top: 3%;
+  }
+  .logo{max-width: 4%;}
 
 }
 @media handheld,screen and (max-width: 362px) {

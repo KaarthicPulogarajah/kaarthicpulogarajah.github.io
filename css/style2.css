@@ -7,9 +7,10 @@ h2
   font-size: 120%;
 }
 
-.portpics
+.portpics,
+#portpic1, #portpic2, #portpic3, #portpic4, #portpic5, #portpic6, #portpic7, #portpic8, #portpic9
 {
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
   opacity: 1;
   border: solid;
@@ -22,14 +23,18 @@ img.portpics:hover
   cursor: pointer;
 }
 
-.portpad{padding-right: 3%;}
-
 .cont {
   position: relative;
   max-width: 30%;
   height: auto;
   z-index: 2;
   color:#12027c;
+  float: left;
+  padding-bottom: 2%;
+}
+
+.cont:not(:last-child){
+  margin-right: 3%;
 }
 
 .cent {
@@ -37,21 +42,17 @@ img.portpics:hover
   font-weight: bold;
   color: #12027c;
   position: absolute;
-  top: 0.2;
   bottom: 0;
   left: 0;
   right: 0;
-  background: none;
-  padding-bottom: 6%;
-  /*padding-left: 55px;*/
+  padding-bottom: 25%;
   z-index: -1;
 
   visibility: hidden;
   opacity: 0;
   text-align: center;
-  -webkit-transition: visibility opacity 0.2s;
-  
 }
+
 .cont:hover .cent {
   visibility: visible;
   opacity: 1;
@@ -93,7 +94,7 @@ img.portpics:hover
 
 /* Add Animation */
 .modal-content, #caption1, #caption2, #caption3, #caption4, #caption5, #caption6
-{    
+{
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -101,12 +102,12 @@ img.portpics:hover
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 
@@ -125,17 +126,6 @@ img.portpics:hover
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-}
-
-
-
-#portpic1, #portpic2, #portpic3, #portpic4, #portpic5, #portpic6, #portpic7, #portpic8, #portpic9
-{
-  max-width: 30%;
-  height: auto;
-  opacity: 1;
-  border: solid;
-  border-radius: 40px;
 }
 
 #portpic1:hover, #portpic2:hover, #portpic3:hover, #portpic4:hover, #portpic5:hover, #portpic6:hover, #portpic7:hover, #portpic8:hover, #portpic9:hover

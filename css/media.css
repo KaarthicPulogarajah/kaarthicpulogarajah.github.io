@@ -168,6 +168,17 @@
     font-size: 80%;
     /*color: orange;*/
   }
+
+  .cont
+  {
+    max-width: 100%;
+  }
+
+  .column
+  {
+    align-self: stretch;
+  }
+
   .col
   {
     -webkit-column-count: 1;

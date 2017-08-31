@@ -144,6 +144,13 @@
 	margin-top: 5%;
 }
 
+.logodown
+{
+	max-width: 1.5%;
+	padding-right: 1%;
+	margin-top: 5%;
+}
+
 .link
 {
 	font-size: 150%;
@@ -155,7 +162,7 @@
 {
 	padding-left: 19%;
 	padding-bottom: 2%;
-	max-width: 100%;
+	max-width: 30%;
 }
 #robot2
 {
@@ -202,3 +209,4 @@
 	padding-left: 27%;
 	max-width: 50%;
 }
+

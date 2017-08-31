@@ -21,6 +21,7 @@ img.portpics:hover
 {
   opacity: 0.4;
   cursor: pointer;
+  
 }
 
 .cont {
@@ -56,6 +57,7 @@ img.portpics:hover
 .cont:hover .cent {
   visibility: visible;
   opacity: 1;
+  
 }
 
 /*.cent.wind{padding-left: 5%; }
@@ -126,12 +128,14 @@ img.portpics:hover
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 #portpic1:hover, #portpic2:hover, #portpic3:hover, #portpic4:hover, #portpic5:hover, #portpic6:hover, #portpic7:hover, #portpic8:hover, #portpic9:hover
 {
   opacity: 0.4;
   cursor: pointer;
+ 
 }
 
 #caption1, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8, #caption9

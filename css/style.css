@@ -225,3 +225,16 @@ footer {
     padding-top: 2%;
 
 }
+
+#matbox
+{
+  padding-bottom: 14%;
+}
+.downbutton
+{
+  max-width:1.5%;
+}
+.downbutton:hover
+{
+  cursor: pointer;
+}

@@ -145,10 +145,12 @@ a:hover
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
     color: black;
-    padding: 5px 0px 5px 40px;
+    text-shadow: 0px 0px 2px white;
+    padding: 5px 20px 5px 40px;
     text-indent: 40px;
     white-space: pre-wrap;
     z-index: 5;
+    box-shadow: 1px 2px 3px #D8D8D8;
 }
 
 #pad
@@ -183,10 +185,6 @@ a:hover
   color: #12027c;
 }
 
-.headtext
-{
-  padding-right: 52%;
-}
 
 footer {
   /* Set font color to white */
@@ -229,12 +227,5 @@ footer {
 #matbox
 {
   padding-bottom: 14%;
-}
-.downbutton
-{
-  max-width:1.5%;
-}
-.downbutton:hover
-{
-  cursor: pointer;
+
 }

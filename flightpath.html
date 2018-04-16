@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Airplane Trajectory</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="img/icon4.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<header>
+			<div class="container">
+			
+			 	<img class = "back" src="img/background2.jpg">
+			</div>
+</header>
+<body>
+<main>
+
+	<div class="header"><a href = "index.html"/>   <span >Kaarthic Pulogarajah</span></a><a href = "experience.html"><span style="float:right" >Experience</span></a>		<a href = "portfolio.html"><span style="float:right">Portfolio</span></a></div>
+
+	<p id = "titleF">Airplane Trajectory</p>
+	<p class = "padP"></p>
+	<div class = "boxP">
+
+	<p class="text">This project was undertaken as an investigation into a interesting question I came across when I started a new work position. My workplace was located very close to Toronto Pearson International Airport, and each day I would see and hear several airplanes flying overhead. I was curious how close to me the airplanes got on their takeoff path, and so I took it upon myself to model using Matlab the first few seconds of the trajectory of a typical aircraft taking off from Pearson Airport to solve this problem.</p>
+	<p class="text">The objective of this project was to use Matlab to create an accurate 2-D simulation of the planets (and Pluto) orbiting the sun in our solar system. To acheieve this goal, I followed a several step procedure. The first step was to collect all relevant data on the planets in the solar system. This included number of orbit days, major and minor axes of the elliptical orbit, and tilt of the ellipse relative to standard position.</p>
+
+	<img id="planets1" src="img/planetsaug08.png">
+	<img id="planets2" src="img/planetsdata.png">
+
+	<p class="text">Next, the ellipse itself had to be plotted for each planet. I used parametric equations to use an independent variable to draw the ellipse for a given planet, using the data collcected from the Excel sheet. In order to fully define a planet on its elliptical orbit, I had to start the simulation at its initial position, shift the ellipse according to its perihelion and aphelion, and rotate the ellipse so that it resembled the true orbit of the planet.</p>
+	<p class="text">The offset and shifts were easily solved by adding the values in the appropriate place. To rotate the ellipse, I used a rotation matrix to apply a rotation transformation to the figure. This causes each point in the orbit to be rotated by a given amount before being displayed, thus making the entire ellipse rotate.</p>
+
+	<img id="planets3" src="img/planetsfun3.png">
+
+	<p class="text">Once each planet could be plotted, I put it all together to make all the planets move together. As an add on, I made it possible to calculate the distance between any planet at the end of the simulation. Lastly, the user was given the control to choose how many days to run the simulation, day increment for each iteration, as well as the planet from which to calculate the final distances.</p>
+
+	<img id="planets4" src="img/planetsdist.PNG">
+	<img id="planets5" src="img/planetsfig1.jpg">
+
+	<p class="text">Final Possible Simulation Results:</p>
+	<img id="planets6" src="img/planetsim1.gif">
+	<img id="planets6" src="img/planetsim2.gif">
+
+	<p>Github Link: <a target="_blank" style= "color:#0000EE;" href="https://github.com/KaarthicPulogarajah/Planet-Simulation"><i>Planets Simulation</i></a></p>
+
+</main>
+<footer></footer>
+</body>
+</html>

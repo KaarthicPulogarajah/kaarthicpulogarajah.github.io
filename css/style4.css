@@ -1,0 +1,57 @@
+.imgCenter
+{
+    text-align:center;
+}
+.flight1
+{
+	display: inline-block;
+    padding-right: 4%;
+    max-width: 45%;
+}
+.flight2
+{
+	display: inline-block;
+    max-width: 45%;
+}
+.flight2:hover,.flight3:hover,.flight9:hover
+{
+	opacity: 0.8;
+}
+#flight4
+{
+	display: inline-block;
+	max-width: 30%;
+	padding-right: 3%;
+	padding-bottom: 7%;
+}
+#flight5
+{
+	display: inline-block;
+	max-width: 40%;
+}
+#flight6
+{
+	display: inline-block;
+	max-width: 40%;
+	padding-bottom: 6%;
+	padding-right: 4%;
+}
+#flight7
+{
+	display: inline-block;
+	max-width: 40%;
+}
+#flight8
+{}
+.flight9
+{
+	max-width: 90%;
+}
+#flight10
+{
+	max-width: 90%;
+}
+#flight11
+{
+	max-width: 90%;
+}

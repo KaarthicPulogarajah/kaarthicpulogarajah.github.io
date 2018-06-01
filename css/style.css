@@ -47,27 +47,27 @@ a:hover
 }
 
 .iam {
-    font-family: "Book Antiqua", "Palatino Linotype", serif;
+    font-family: "Futura", "Trebuchet MS","Book Antiqua", Palatino, sans-serif;
     position: absolute;
     left: 0;
-    top: 28%;
+    top: 70%;
     width: 100%;
     text-align: center;
     color: black;
     font-size: 150%;
-    font-style: oblique;
+    /*font-style: oblique;*/
    /*#87F;*/
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 10%;
 
 }
 .title
 {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
     position: absolute;
     left: 0;
-    top: 29%;
+    top: -1%;
     width: 100%;
     text-align: center;
     font-size: 400%;
@@ -76,11 +76,37 @@ a:hover
     font-weight: 700;
 }
 
+.titlepic
+{
+  padding-top: 11%;
+  text-align: center;
+  z-index: 3;
+
+}
+
+.titlepics
+{
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+#iamUNI
+{
+  top: 76%;
+  font-size: 125%;
+}
+
+#pad
+{
+  padding-top: 4%;
+}
+
+
 .button1 {
     position: absolute;
-    left: 39%;
+    left: 45%;
     top: 58%;
-    font-size: 120%;
+    font-size: 150%;
     border: 2px solid black;
     background-color: #7343db;
     border-radius: 8px;
@@ -89,7 +115,6 @@ a:hover
     padding: 4px 10px;
     margin: 2px 2px;
     cursor: pointer;
-
 
 }
 .button1:hover {
@@ -120,7 +145,7 @@ a:hover
   /*position: absolute;*/
   max-width: 100%;
   height: auto;
-  opacity: 1;
+  opacity: 0.75;
 
 }
 
@@ -151,12 +176,9 @@ a:hover
     white-space: pre-wrap;
     z-index: 5;
     box-shadow: 1px 2px 3px #D8D8D8;
+    font-size: 115%;
 }
 
-#pad
-{
-  padding-top: 50%;
-}
 
 
 .box {

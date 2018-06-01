@@ -139,9 +139,9 @@
 
 .logo
 {
-	max-width: 2%;
-	padding-right: 1%;
-	margin-top: 5%;
+	max-width: 1.333%;
+	padding-right: 0.5%;
+	padding-left: 0%;
 }
 
 .logodown
@@ -153,10 +153,13 @@
 
 .link
 {
-	font-size: 150%;
+	font-size: 100%;
+	font-weight: bolder; 
 	font-family: Georgia, Times, "Times New Roman", serif;
+	/*display: inline;*/
 
 }
+
 
 #robot1
 {

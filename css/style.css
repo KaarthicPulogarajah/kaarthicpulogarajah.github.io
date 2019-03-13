@@ -46,7 +46,7 @@ a:hover
 }
 
 .iam {
-    font-family: "Futura", "Trebuchet MS","Book Antiqua", Palatino, sans-serif;
+    font-family: 'Open Sans',"Futura", "Trebuchet MS","Book Antiqua", Palatino, sans-serif;
     position: relative;
     left: 0;
     top: 70%;
@@ -63,7 +63,7 @@ a:hover
 }
 .title
 {
-    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-family: 'Open Sans',"Futura", "Trebuchet MS", Arial, sans-serif;
     position: relative;
     left: 0;
     top: -1%;
@@ -124,7 +124,9 @@ a:hover
 }
 
 .header {
+    background-image: linear-gradient(to right,rgb(99,180,209),  white);
     background-color: #63B4D1;
+    /* background-image: url("img/blue.png") */
     width: 100%;
     position: fixed;
     top: 0;
@@ -165,7 +167,7 @@ a:hover
 .about
 {
   font-size: 120%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Open Sans',Verdana, Geneva, sans-serif;
   color: #12027c;
 }
 

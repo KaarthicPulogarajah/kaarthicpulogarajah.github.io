@@ -33,9 +33,9 @@
   body {
     /*color: turquoise;*/
   }
-  .headtext
+  .header
   {
-    padding-right: 36%;
+    font-size: 130%;
   }
   .titlepic
   {
@@ -280,9 +280,10 @@
   }
 
   .header {
-  font-size: 75%;
+  font-size: 125%;
   padding: 5px 20px 5px 40px;
   }
+  .logo{max-width: 5%;}
 
   .cent{padding-bottom: 17%;}
 
@@ -311,7 +312,7 @@
     margin-bottom: 5%;
     padding-left: 3%;
   }
-  .logo{max-width: 3%;}
+ 
 
   .iam
   {
@@ -346,10 +347,8 @@
 }
 @media handheld,screen and (max-width: 380px) {
 
-  .headtext
-  {
-
-    padding-right: 15%;
+  .header {
+    font-size: 120%;
   }
   .iam
   {

@@ -13,6 +13,10 @@
 	display: inline-block;
     max-width: 45%;
 }
+.flight3
+{
+	max-width: 100%;
+}
 .flight2:hover,.flight3:hover,.flight9:hover
 {
 	opacity: 0.8;
@@ -41,8 +45,7 @@
 	display: inline-block;
 	max-width: 40%;
 }
-#flight8
-{}
+
 .flight9
 {
 	max-width: 90%;

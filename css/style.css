@@ -21,7 +21,6 @@ header {
 }
 
 main {
-  /* Set maximum width to be 800 pixels */
   max-width: 3000px;
   /* Set margin to be automatically calculated on all sides */
   margin: auto;
@@ -48,7 +47,7 @@ a:hover
 
 .iam {
     font-family: "Futura", "Trebuchet MS","Book Antiqua", Palatino, sans-serif;
-    position: absolute;
+    position: relative;
     left: 0;
     top: 70%;
     width: 100%;
@@ -59,13 +58,13 @@ a:hover
    /*#87F;*/
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
     font-weight: bolder;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
 
 }
 .title
 {
     font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
-    position: absolute;
+    position: relative;
     left: 0;
     top: -1%;
     width: 100%;
@@ -78,22 +77,24 @@ a:hover
 
 .titlepic
 {
-  padding-top: 11%;
+  padding-top: 1%;
   text-align: center;
   z-index: 3;
-
+  
 }
 
 .titlepics
 {
   border: 2px solid black;
   border-radius: 100%;
+  width: 23%;
 }
 
 #iamUNI
 {
-  top: 76%;
+  margin-top: 0%;
   font-size: 125%;
+  margin-bottom: 0%;
 }
 
 #pad
@@ -101,51 +102,13 @@ a:hover
   padding-top: 4%;
 }
 
-
-.button1 {
-    position: absolute;
-    left: 45%;
-    top: 58%;
-    font-size: 150%;
-    border: 2px solid black;
-    background-color: #7343db;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-    padding: 4px 10px;
-    margin: 2px 2px;
-    cursor: pointer;
-
-}
-.button1:hover {
-
-    color: black;
-}
-
-.button2 {
-    position: absolute;
-    left: 52%;
-    top: 58%;
-    font-size: 120%;
-    border: 2px solid black;
-    background-color: #7343db;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-    padding: 4px 10px;
-    margin: 2px 2px;
-    cursor: pointer;
-}
-
-.button2:hover {
-    color: black;
-}
-
 .back {
-  /*position: absolute;*/
+  /* position: relative; */
   max-width: 100%;
   height: auto;
   opacity: 0.75;
+  margin-top: -4%;
+  padding-bottom: 10%;
 
 }
 
@@ -179,8 +142,6 @@ a:hover
     font-size: 115%;
 }
 
-
-
 .box {
   background-color: white;
   padding-bottom: 1%;
@@ -198,6 +159,7 @@ a:hover
   color: #4109ba;
   padding-bottom: 1%;
   padding-top: 3%;
+  /* margin-top: 0%; */
 }
 
 .about
@@ -226,12 +188,13 @@ footer {
 .titleP
 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    position: absolute;
+    position: relative;
     font-size: 350%;
     color: black;
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
-    left: 5%;
-    top: 5%;
+    /* left: 5%;
+    top: 5%; */
+    padding-left: 3%;
 }
 
 .padP {padding-top: 12%;}
@@ -243,6 +206,7 @@ footer {
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 2%;
+    
 
 }
 
@@ -250,4 +214,9 @@ footer {
 {
   padding-bottom: 20%;
 
+}
+
+.middlepic
+{
+  width: 80%;
 }

@@ -53,12 +53,13 @@
 #titleF
 {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    position: absolute;
+    position: relative;
     font-size: 275%;
     color: black;
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
-    left: 5%;
-    top: 11%;
+    /* left: 5%;
+	top: 11%; */
+	padding-left: 3%;
 }
 
 #fridge1
@@ -102,12 +103,13 @@
 #titleW
 {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    position: absolute;
+    position: relative;
     font-size: 300%;
     color: black;
     text-shadow:  0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
-    left: 4%;
-    top: 10%;
+    /* left: 4%;
+	top: 10%; */
+	padding-left: 3%;
 }
 
 #forces

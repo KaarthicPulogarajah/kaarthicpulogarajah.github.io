@@ -14,6 +14,7 @@ h2
   height: auto;
   opacity: 1;
   border: solid;
+  border-width: 2px;
   border-radius: 40px;
 }
 
@@ -39,7 +40,8 @@ img.portpics:hover
 }
 
 .cent {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  /* font-family: Georgia, Times, "Times New Roman", serif; */
+  font-family: 'Open Sans',Verdana, Geneva, sans-serif;
   font-weight: bold;
   color: #12027c;
   position: absolute;

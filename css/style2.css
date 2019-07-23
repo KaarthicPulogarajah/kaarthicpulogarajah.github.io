@@ -15,7 +15,7 @@ h2
   opacity: 1;
   border: solid;
   border-width: 2px;
-  border-radius: 40px;
+  border-radius: 20%;
 }
 
 img.portpics:hover

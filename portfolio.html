@@ -17,66 +17,89 @@
 		</div>
 </header>
 <body>
-<main>
+<main >
 
 	<div class="header"><a href = "index.html">   <span >Kaarthic P.</span></a><a target="_blank" class="link" href="https://github.com/KaarthicPulogarajah"><img style="float:right" class="logo" src="img/github2.png"></a><a target="_blank" class="link" href="https://www.linkedin.com/in/kaarthicp"><img style="float:right" class="logo" src="img/linkedin.png"></a><a target="_blank" class="link" href="pdf/Kaarthic_Resume.pdf"><img style="float:right" class="logo" src="img/adobe.png"></a><a href = "portfolio.html"><span style="float:right">Portfolio   </span></a></div>
 	
-	<p class = "titleP">Portfolio
-		<span id="eng_des" class="about" onclick="toggleHide()">Engineering Design</span>
-		<span id="eng_des" class="about" onclick="toggleHide()">Software Development</span>
-	</p>
+	<div id= "portTitle" class = "titleP"><a href = "portfolio.html">Portfolio</a><div id="portgap1"></div>
+		<span id="eng_des" class="about" onclick="toggleHide(eng_des)">Engineering Design</span><div id="portgap2"></div>
+		<span id="soft_dev" class="about" onclick="toggleHide(soft_dev)">Software Development</span><div id="portgap3"></div>
+	</div>
 
 	<div class = "boxP">
-		
-		
-		
-		<span id="hide1">
+
+		<span id="hide_eng">
+
 			<span class="cont">
 				<a href="windtunnel.html"><img class = "portpics" src="img/wind tunnel2.jpg"></a>
 				<p class="cent">1315-MH Wind Tunnel</p>
 			</span>
-			<span class="portpad"></span>
-			
+
 			<span class="cont">
 				<a href="3d.html"><img class = "portpics" src="img/trophy1.png"></a>
 				<p class="cent">3D Modelling</p>
 			</span>
-			<span class="portpad"></span>
 			
 			<span class="cont">
 				<a href="fridge.html"><img class = "portpics" src="img/ice2.jpg"></a>
 				<p class="cent">Freezing and Cooling Technologies</p>
 			</span>
 
-		<br><br>
-
 			<span class="cont">
 				<a href="garbageRobot.html"><img class = "portpics" src="img/robotcover.jpg"></a>
 				<p class="cent">Garbage Collector and Sorter Robot</p>
 			</span>
-			<span class="portpad"></span>
 
-			<span class="cont">
+			<span class="cont"  style="margin-right:3%;">
 				<a href="traxxas.html"><img class = "portpics" src="img/traxxas.png"></a>
 				<p class="cent">Assistive Technology</p>
 			</span>
-			<span class="portpad"></span>
-
+			
 		</span>
-	
-
 		
 
-		<span id="hide2">
+		<span id="hide_soft">
+			
 			<span class="cont">
-				<a href="cpp.html"><img class = "portpics" src="img/code.png"></a>
-				<p class="cent">C++ Projects</p>
+				<a target="_blank" href= https://github.com/KaarthicPulogarajah/Battleship><img class = "portpics" src="img/battleship.jpg"></a>
+				<p class="cent">Battleship</p>
+			</span>
+			
+			<span class="cont">
+				<a href="planetsim.html"><img class = "portpics" src="img/planets.jpg"></a>
+				<p class="cent">Planets Simulation</p>
+			</span>
+		
+			<span class="cont">
+				<a target="_blank" href= https://github.com/KaarthicPulogarajah/VandermondeMatrix><img class = "portpics" src="img/vmatrix.png"></a>
+				<p class="cent">Vandermonde Matrix</p>
+			</span>
+			
+			<span class="cont">
+				<a href="flightpath.html"><img class = "portpics" src="img/planepic.jpg"></a>
+				<p class="cent">Airplane Trajectory</p>
+			</span>
+		
+			<span class="cont">
+				<a target="_blank" href= https://github.com/KaarthicPulogarajah/Mastermind><img class = "portpics" src="img/mastermind.jpg"></a>
+				<p class="cent">Mastermind</p>
+			</span>
+			
+			<span class="cont">
+				<a target="_blank" href= https://github.com/KaarthicPulogarajah/ConnectFour><img class = "portpics" src="img/connectfour.png"></a>
+				<p class="cent">Connect Four</p>
 			</span>
 
 			<span class="cont">
-				<a href="matlab.html"><img class = "portpics" src="img/matlabicon.png"></a>
-				<p class="cent">MATLAB Projects</p>
+				<a target="_blank" href= https://github.com/KaarthicPulogarajah/MatrixInverse><img class = "portpics" src="img/matinv.png"></a>
+				<p class="cent">Matrix Inverse</p>
 			</span>
+			
+			<span class="cont">
+				<a target="_blank" href= https://github.com/KaarthicPulogarajah/2048><img class = "portpics" src="img/2048.png"></a>
+				<p class="cent">2048</p>
+			</span>
+			
 		</span>
 
 	</div>
@@ -85,17 +108,61 @@
 <footer></footer>
 
 <script>
-	function toggleHide() {
-	  var x = document.getElementById("hide1");
-	  if (x.style.display === "none") {
-		x.style.display = "block";
+	function toggleHide(y) {
+	
+		if (y == eng_des)
+		{
+			// case to reset to portfolio
+			if (hide_soft.style.display == "none")
+			{
+				hide_eng.style.display = "block";
+				hide_soft.style.display = "block";
+				
+				eng_des.style.textShadow = "0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white";
+				
+				soft_dev.style.textShadow = "0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white";
+			}
+			
+			// case to show just eng_des
+			else
+			{
+				hide_eng.style.display = "block";
+				hide_soft.style.display = "none";
+				
+				eng_des.style.textShadow = "0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080";
+				
+				soft_dev.style.textShadow = "0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white";
+			}
+		}
+		else
+		{
+			// case to reset to portfolio
+			if (hide_eng.style.display == "none")
+			{
+				hide_soft.style.display = "block";
+				hide_eng.style.display = "block";
+				
+				eng_des.style.textShadow = "0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white";
+				
+				soft_dev.style.textShadow = "0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white";
+			}
+				
+			// case to show just soft_dev
+			else
+			{
+				hide_soft.style.display = "block";
+				hide_eng.style.display = "none";
+				
+				soft_dev.style.textShadow = "0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080, 0 0 0.8em #fff080";
+				
+				eng_des.style.textShadow = "0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white, 0 0 0.8em white";
+			}
 		
-	  } else {
-		x.style.display = "none";
-
-	  }
+		}
+		
 	}
-	</script>
+	
+</script>
 
 </body>
 </html>

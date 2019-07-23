@@ -1,10 +1,4 @@
-@media handheld, screen and (max-width: 1400px) {
-	#portTitle
-	{
-		font-size:300%;
-  }
-  .back{max-width:150%;}
-}
+
 
 /* Change features as page size decreases*/
 @media handheld, screen and (max-width: 1190px) {
@@ -17,12 +11,6 @@
     padding-right: 45%;
   }
  
-	#portTitle
-	{
-		font-size:250%;
-		margin-top:2%;
-	}
-	
    .titleP
   {
     font-size: 350%;
@@ -49,13 +37,6 @@
   {
     font-size: 130%;
   }
-  
-	#portTitle
-	{
-		font-size:200%;
-		margin-top:3%;
-	}
-  
   .titlepic
   {
     margin-top: -6%;
@@ -106,7 +87,6 @@
   .title{top: 20%;}
   .portpad{padding-right: 2%;}
   .logo{max-width: 3%;}
-  
 
 }
 @media handheld,screen and (max-width: 750px) {
@@ -181,26 +161,7 @@
     column-count: 1;
     
   }
-  
-  .titleP
-  {
-    margin-top: 10%;
-  }
-  
   #portpic1, #portpic2, #portpic3, #portpic4, #portpic5, #portpic6{max-width: 100%;}
-  
-  #portTitle
-  {
-	  font-size:350%;
-	  /* text-align:center; */
-  }
-  
-  #portgap1, #portgap2, #portgap3
-  {
-	  display:block;
-  }
-
-	.boxP {padding-top:2%;}
 
    .about
   {
@@ -240,10 +201,7 @@
     font-size: 80%;
     /*color: pink;*/
   }
-  #portTitle
-  {
-	  margin-top:5%;
-  }
+  
   .iam{top: 18%;}  
   .title
   {
@@ -295,50 +253,7 @@
     top: 3%;
   }
   .logo{max-width: 3%;}
-  
-  /* new */
-  .iam
-  {
-    padding-top: 1%;
-    padding-bottom:0%;
-  }
-  #iamUNI
-  {
-    margin-bottom: 0%;
-  }
 
-  .back
-  {
-    /* max-width: auto; */
-    max-width: 200%;
-  }
-
-  .col
-  {
-    display: inline;
-  }
-
-  .column
-  {
-    width: 100%;
-  }
-  .middlepic
-  {
-    display: none;
-  }
-  
-  .title
-  {
-      padding-top: 1%;
-      font-size: 260%;
-  }
-
-  .titlepics
-  {
-    width: 60%;
-  }
-
-	.logo{max-width: 5%;}
 }
 @media handheld,screen and (max-width: 449px) {
 .headtext
@@ -379,7 +294,10 @@
     margin-bottom: 5%;
     padding-left: 3%;
   }
-
+  /* .padP
+  {
+    padding-top: 0%;
+  } */
   #titleF
   {
     font-size: 200%;
@@ -432,13 +350,6 @@
   .header {
     font-size: 120%;
   }
-  
-  #portTitle
-  {
-	  /* font-size:250%; */
-	  margin-top:8%;
-  }
-  
   .iam
   {
     padding-top: 0%;

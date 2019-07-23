@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="img/icon4.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<header>
+		<div class="container">
+		
+			<img class = "back" src="img/background2.jpg">
+		</div>
+</header>
+<body>
+<main>
+
+	<div class="header"><a href = "index.html">   <span >Kaarthic P.</span></a><a target="_blank" class="link" href="https://github.com/KaarthicPulogarajah"><img style="float:right" class="logo" src="img/github2.png"></a><a target="_blank" class="link" href="https://www.linkedin.com/in/kaarthicp"><img style="float:right" class="logo" src="img/linkedin.png"></a><a target="_blank" class="link" href="pdf/Kaarthic_Resume.pdf"><img style="float:right" class="logo" src="img/adobe.png"></a><a href = "portfolio.html"><span style="float:right">Portfolio   </span></a></div>
+	
+	<p class = "titleP">Portfolio
+		<span id="eng_des" class="about" onclick="toggleHide()">Engineering Design</span>
+		<span id="eng_des" class="about" onclick="toggleHide()">Software Development</span>
+	</p>
+
+	<div class = "boxP">
+		
+		
+		
+		<span id="hide1">
+			<span class="cont">
+				<a href="windtunnel.html"><img class = "portpics" src="img/wind tunnel2.jpg"></a>
+				<p class="cent">1315-MH Wind Tunnel</p>
+			</span>
+			<span class="portpad"></span>
+			
+			<span class="cont">
+				<a href="3d.html"><img class = "portpics" src="img/trophy1.png"></a>
+				<p class="cent">3D Modelling</p>
+			</span>
+			<span class="portpad"></span>
+			
+			<span class="cont">
+				<a href="fridge.html"><img class = "portpics" src="img/ice2.jpg"></a>
+				<p class="cent">Freezing and Cooling Technologies</p>
+			</span>
+
+		<br><br>
+
+			<span class="cont">
+				<a href="garbageRobot.html"><img class = "portpics" src="img/robotcover.jpg"></a>
+				<p class="cent">Garbage Collector and Sorter Robot</p>
+			</span>
+			<span class="portpad"></span>
+
+			<span class="cont">
+				<a href="traxxas.html"><img class = "portpics" src="img/traxxas.png"></a>
+				<p class="cent">Assistive Technology</p>
+			</span>
+			<span class="portpad"></span>
+
+		</span>
+	
+
+		
+
+		<span id="hide2">
+			<span class="cont">
+				<a href="cpp.html"><img class = "portpics" src="img/code.png"></a>
+				<p class="cent">C++ Projects</p>
+			</span>
+
+			<span class="cont">
+				<a href="matlab.html"><img class = "portpics" src="img/matlabicon.png"></a>
+				<p class="cent">MATLAB Projects</p>
+			</span>
+		</span>
+
+	</div>
+
+</main>
+<footer></footer>
+
+<script>
+	function toggleHide() {
+	  var x = document.getElementById("hide1");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+		
+	  } else {
+		x.style.display = "none";
+
+	  }
+	}
+	</script>
+
+</body>
+</html>

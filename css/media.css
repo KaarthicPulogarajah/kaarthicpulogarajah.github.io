@@ -3,6 +3,10 @@
 	{
 		font-size:300%;
   }
+  .titlepic
+  {
+    margin-top: -6%;
+  }
   .back{max-width:150%;}
 }
 

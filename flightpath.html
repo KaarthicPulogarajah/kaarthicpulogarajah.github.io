@@ -26,10 +26,10 @@
 	<div class="header"><a href = "index.html">   <span >Kaarthic P.</span></a><a target="_blank" class="link" href="https://github.com/KaarthicPulogarajah"><img style="float:right" class="logo" src="img/github2.png"></a><a target="_blank" class="link" href="https://www.linkedin.com/in/kaarthicp"><img style="float:right" class="logo" src="img/linkedin.png"></a><a target="_blank" class="link" href="pdf/Kaarthic_Resume.pdf"><img style="float:right" class="logo" src="img/adobe.png"></a><a href = "portfolio.html"><span style="float:right">Portfolio   </span></a></div>
 	
 	<p id = "titleF">Airplane Trajectory</p>
-	<!-- <p class = "padP"></p> -->
+
 	<div class = "boxP">
 
-	<p class="text">This project was undertaken as an investigation into a interesting question I came across when I started a new work position. My workplace was located very close to Toronto Pearson International Airport, and each day I would see and hear several airplanes flying overhead. I was curious how close to me the airplanes got on their takeoff path, and so I took it upon myself to model using Matlab the first few seconds of the trajectory of a typical aircraft taking off from Pearson Airport to solve this problem. Before I could successfully model an airplane's takeoff path, I had to research several topics: takeoff speeds of an airplane, angle of climb during takeoff, and the types of planes that took off from Pearson.</p>
+	<p class="text">This project was undertaken as an investigation into a interesting question I came across when I started a new work position. My workplace was located very close to Toronto Pearson International Airport, and each day I would see and hear several airplanes flying overhead.<br><br>I was curious how close to me the airplanes got on their takeoff path, and so I took it upon myself to model using MATLAB the first few seconds of the trajectory of a typical aircraft taking off from Pearson Airport to solve this problem. <br><br>Before I could successfully model an airplane's takeoff path, I had to research several topics: takeoff speeds of an airplane, angle of climb during takeoff, and the types of planes that took off from Pearson.</p>
 	<p class="text">I quickly learned that takeoff is a precise process with many different V-speeds to designate speed checkpoints that pilots must achieve during takeoff to ensure that the takeoff is successful. </p>
 
 	<div class="imgCenter">
@@ -40,7 +40,7 @@
 
 	<p class="text">There are two V-speeds that are particularly important to this project: V<sub>r</sub> &mdash; the speed at which the pilot begins to rotate the plane to leave the runway and V<sub>2</sub> &mdash; the minimum speed at which controlled climb is possible, where V<sub>2</sub> is reached after V<sub>r</sub>, and V<sub>2</sub> > V<sub>r</sub> due to the acceleration of the plane. Another important consideration for an airplane's takeoff trajectory is that the aircraft must be at least 35 ft (10.7m) off the ground at the end of the runway, as required by the FAA.</p>
 
-	<p class="text">Next, I had to determine the angle of climb of typical aircraft, and I found that different aircraft have different angles of climb. The pamphlet on the right by Boeing shows the typical range of climb angles for their commercial aircraft. Given the large variance in the liftoff and climb angles, I thought it best to single out one model of aircraft from the chart and derive the takeoff trajectory using that information. To determine which airplane to model, I looked for one that would most likely be present at Toronto Pearson International Airport.</p>
+	<p class="text">Next, I had to determine the angle of climb of typical aircraft, and I found that different aircraft have different angles of climb. The pamphlet on the right by Boeing shows the typical range of climb angles for their commercial aircraft.<br>Given the large variance in the liftoff and climb angles, I thought it best to single out one model of aircraft from the chart and derive the takeoff trajectory using that information. To determine which airplane to model, I looked for one that would most likely be present at Toronto Pearson International Airport.</p>
 
 	<div class="imgCenter"><a target="_blank" href="https://www.torontopearson.com/uploadedFiles/Pearson/Content/About_Pearson/Noise_Management/2015-08-20%20Toronto%20Pearson%20flight%20path%20web%20presentation.pdf#page=31"><img class ="flight3" src="img/pearsonplanes.png"></a></div>
 
@@ -48,9 +48,9 @@
 
 	<div class="imgCenter"><img id="flight4" src="img/b737climb.png"><img id="flight5" src="img/b737speeds.png"> </div>
 
-	<p class="text">Given the takeoff information and V-speeds of a Boeing 737-300, I had enough information to begin plotting the path of this plane's takeoff. But first, I had to make one small consideration. V-speeds are not set in stone for any airplane, but are dependent on a variety of factors listed on the bottom of the chart (right). The most important factor is the takeoff weight of the jet, as this will significantly change the V-speeds. To deal with this, I fit a linear relationship between weight and V<sub>r</sub> so that when the takeoff weight is entered, the corresponding V<sub>r</sub> value is calculated automatically and converted to m/s<sup>-1</sup>.</p>
+	<p class="text">Given the takeoff information and V-speeds of a Boeing 737-300, I had enough information to begin plotting the path of this plane's takeoff. But first, I had to make one small consideration. V-speeds are not set in stone for any airplane, but are dependent on a variety of factors listed on the bottom of the chart (right).<br>The most important factor is the takeoff weight of the jet, as this will significantly change the V-speeds. To deal with this, I fit a linear relationship between weight and V<sub>r</sub> so that when the takeoff weight is entered, the corresponding V<sub>r</sub> value is calculated automatically and converted to m/s<sup>-1</sup>.</p>
 
-	<p class="text">To ensure that the flight path is modelled accurately, the motion of the plane must be considered as well as its position. I applied Newton's 2<sup>nd</sup> law and kinematics to solve the physics on takeoff. The forces on an airplane are thrust, drag, lift, and gravity. For the airplane to move forward during take off, thrust must exceed the relatively high lift-induced drag. The Boeing 737-300 has 2 CFM Intl CFM56-3B2 engines, each capable of providing 97.9 kN of thrust. This jet has a maximum tow weight of 63000 kg, and using the equation <i>F = ma</i> and counting for drag, the acceleration comes out to be around 1.6 ms<sup>-2</sup>, consistent with actual acceleration values. Using this acceleration and kinematics, I was able to determine the minimum runway distance required for the jet to reach the required V-speeds.</p>
+	<p class="text">To ensure that the flight path is modelled accurately, the motion of the plane must be considered as well as its position. I applied Newton's 2<sup>nd</sup> law and kinematics to solve the physics on takeoff. The forces on an airplane are thrust, drag, lift, and gravity. For the airplane to move forward during take off, thrust must exceed the relatively high lift-induced drag.<br>The Boeing 737-300 has 2 CFM Intl CFM56-3B2 engines, each capable of providing 97.9 kN of thrust. This jet has a maximum tow weight of 63000 kg, and using the equation <i>F = ma</i> and counting for drag, the acceleration comes out to be around 1.6 ms<sup>-2</sup>, consistent with actual acceleration values. Using this acceleration and kinematics, I was able to determine the minimum runway distance required for the jet to reach the required V-speeds.</p>
 
 	<p class="text">To model the airplane's flight path, I used Google Maps to locate and orient the runway and my position from which to calculate the minimum distance of the flight.</p>
 
@@ -60,22 +60,22 @@
 
 	<p class="text">It would be easy to model the constant climb vector, but modelling the path of the airplane from the runway to the point of constant climb proved more difficult than I expected. From the Boeing pamphlet, I determined the following information: the plane only leaves the ground 3 seconds after V<sub>r</sub> is reached, the plane has rotated 9° 3 seconds after V<sub>r</sub>, the plane reaches a climb angle of 17° 6.5 seconds after V<sub>r</sub> is reached, which leads to the derivation that the climb angle increases by ~2.29°/s (16/7 °/s). I reasoned that the slope at each point during takeoff was equal to the tan of the angle: </p>
 
-	<div class="imgCenter"><img id="flight8" src="img/tanChart.png"></div>
+	<!-- <div class="imgCenter"><img id="flight8" src="img/tanChart.png"></div> -->
  
 	<p class="text">The above chart shows the relationship between time, horizontal distance, angle, and slope with the angle measured in radians. The last line shows the climb angle and slope as a function of horizontal distance. This generalized equation for slope can be integrated to give the function that is the path of the takeoff from runway to constant climb point. <i>x</i> is changed to <i>x+6.5*V<sub>r</sub></i> to shift the curve to the left to make sure the final point, where the angle is 17°, lands on <i>x</i> = 0, or the y-axis.</p>
 	
-	<p class="text"> 
-	  $$\int \mathrm{tan}\left(\frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right)\mathrm{d}x$$
-	  $$\mathrm{Let}\:\:u = \frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\:\:,\:\:\mathrm{d}u = \frac{16\pi}{7*180*V_r}\mathrm{d}x$$
-	  $$=\frac{7*180*V_r}{16\pi}\int \mathrm{tan}(u)\:\mathrm{d}u$$
-	  $$=-\frac{7*180*V_r}{16\pi} [\mathrm{ln}(\mathrm{cos}(u))+\mathrm{C}]$$
-	  $$\mathrm{f}(x)=-\frac{7*180*V_r}{16\pi} \left[\mathrm{ln}\left(\mathrm{cos}\left(\frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right) \right)+\mathrm{C} \right]$$
-	  The airplane leaves the ground at <i>3*V<sub>r</sub></i> seconds, which after shifting the curve to the left, becomes <i>3*V<sub>r</sub> - 6.5*V<sub>r</sub> = -3.5*V<sub>r</sub></i>. So, the value of C is the value where (<i>-3.5*V<sub>r</sub></i> , 0) occurs.
-	  $$\mathrm{At } (-3.5*V_r,0)\;,\; 0 = -\frac{7*180*V_r}{16\pi} \left[\mathrm{ln}\left(\mathrm{cos}\left(\frac{\frac{16}{7}(-3.5*V_r+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right)\right)+\mathrm{C} \right]$$
-	  $$\mathrm{C}=-\mathrm{ln}\left(\mathrm{cos}\left(\frac{\pi}{20}\right)\right)$$
-	  $$\mathrm{f}(x)=-\frac{7*180*V_r}{16\pi} \left[\mathrm{ln}\left(\mathrm{cos}\left(\frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right) \right)-\mathrm{ln}\left(\mathrm{cos}\left(\frac{\pi}{20}\right)\right) \right]$$
-	  As an example, this curve is plotted when V<sub>r</sub> = 72 ms<sup>-1</sup>, or approximately 140 knots.
-	</p>
+	<!-- <p class="text">  -->
+	  <!-- $$\int \mathrm{tan}\left(\frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right)\mathrm{d}x$$ -->
+	  <!-- $$\mathrm{Let}\:\:u = \frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\:\:,\:\:\mathrm{d}u = \frac{16\pi}{7*180*V_r}\mathrm{d}x$$ -->
+	  <!-- $$=\frac{7*180*V_r}{16\pi}\int \mathrm{tan}(u)\:\mathrm{d}u$$ -->
+	  <!-- $$=-\frac{7*180*V_r}{16\pi} [\mathrm{ln}(\mathrm{cos}(u))+\mathrm{C}]$$ -->
+	  <!-- $$\mathrm{f}(x)=-\frac{7*180*V_r}{16\pi} \left[\mathrm{ln}\left(\mathrm{cos}\left(\frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right) \right)+\mathrm{C} \right]$$ -->
+	  <!-- The airplane leaves the ground at <i>3*V<sub>r</sub></i> seconds, which after shifting the curve to the left, becomes <i>3*V<sub>r</sub> - 6.5*V<sub>r</sub> = -3.5*V<sub>r</sub></i>. So, the value of C is the value where (<i>-3.5*V<sub>r</sub></i> , 0) occurs. -->
+	  <!-- $$\mathrm{At } (-3.5*V_r,0)\;,\; 0 = -\frac{7*180*V_r}{16\pi} \left[\mathrm{ln}\left(\mathrm{cos}\left(\frac{\frac{16}{7}(-3.5*V_r+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right)\right)+\mathrm{C} \right]$$ -->
+	  <!-- $$\mathrm{C}=-\mathrm{ln}\left(\mathrm{cos}\left(\frac{\pi}{20}\right)\right)$$ -->
+	  <!-- $$\mathrm{f}(x)=-\frac{7*180*V_r}{16\pi} \left[\mathrm{ln}\left(\mathrm{cos}\left(\frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right) \right)-\mathrm{ln}\left(\mathrm{cos}\left(\frac{\pi}{20}\right)\right) \right]$$ -->
+	  <!-- As an example, this curve is plotted when V<sub>r</sub> = 72 ms<sup>-1</sup>, or approximately 140 knots. -->
+	<!-- </p> -->
 
 	<div class="imgCenter"><a target="_blank" href="https://www.desmos.com/calculator/iplnjsvkst"><img class="flight9" src="img/flightcurve.png"></a></div>
 
@@ -86,12 +86,17 @@
 
 	<p class="text">After the takeoff curve, a vector tangent to the end to the curve was used to model the constant climb portion of the airplane's takeoff. With these two curves and the appropriate length of runway necessary calculated earlier, the flight path modelling was complete, and my next task was to use this information to calculate the minimum distance from the takeoff path to my position.<br> To accomplish this I used my knowledge of linear algebra and projections.</p>
 
-	<div class="imgCenter"><img src="img/projection.png"></div>
+	<!-- <div class="imgCenter"><img src="img/projection.png"></div> -->
 	<p class="text">I used MATLAB to put together all the calculations and model the entirety of this project:</p>
+	
 	<div class="imgCenter"><img id="flight10" src="img/flightresult1.png"></div>
+	
 	<p class="text">The closest point appears to be quite far from the point representing my position, but this is due to the scaling of the Z-axis. However, this view allows all the points, vectors, and curves to be seen clearly.</p>
+	
 	<div class="imgCenter"><img id="flight11" src="img/flightresult2.png"></div>
+	
 	<p class="text">This is a more realistic scaling of the true takeoff trajectory of a Boeing 737. In each of these differing weights, the V<sub>r</sub> and runway end speed values are consistent with the values provided earlier. The Boeing pamphlet determined that at end of the runway the speed would be <i>V<sub>2</sub> + 15</i> knots, and this is the value predicted by the model within a small margin of error, for all takeoff weights. This independently corroborates the model and helps ensure its correctness. The minimum distance was found to be around 390 m, varying slightly with the mass and speed of the aircraft.</p>
+	
 	<p class="text">Using my knowledge of calculus, linear algebra, physics, and MATLAB, I was able to accurately model the takeoff flight path of a typical airplane flying from Pearson International Airport and determine the minimum distance from the flight path to any observer on the ground.</p>
 
 	<p><br>Github Link: <a target="_blank" style= "color:#0000EE;" href="https://github.com/KaarthicPulogarajah/Flight-Path"><i>Flight Path</i></a></p>

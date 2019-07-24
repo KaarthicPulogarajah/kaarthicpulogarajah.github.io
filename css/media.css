@@ -2,12 +2,7 @@
 	#portTitle
 	{
 		font-size:300%;
-  }
-  .titlepic
-  {
-    margin-top: -6%;
-  }
-  .back{max-width:150%;}
+	}
 }
 
 /* Change features as page size decreases*/
@@ -110,7 +105,7 @@
   .title{top: 20%;}
   .portpad{padding-right: 2%;}
   .logo{max-width: 3%;}
-  
+  .back{max-width:150%;}
 
 }
 @media handheld,screen and (max-width: 750px) {
@@ -383,6 +378,8 @@
     margin-bottom: 5%;
     padding-left: 3%;
   }
+  
+  #modThree {padding-right:10%;}
 
   #titleF
   {
@@ -452,7 +449,10 @@
   {
     margin-bottom: 0%;
   }
-
+	#modThree {font-size:250%;}
+	
+	.boxP {margin-right:-1%;}
+	.box {margin-right:-1%;}
 }
 @media handheld,screen and (max-width: 326px) {
 

@@ -213,7 +213,6 @@ a:hover
 	padding-top:3%;
 	padding-bottom:2%;
 	padding-right:0%;
-	width:100%;
     text-align:left;
 	/* display:inline-block; */
 }
@@ -255,7 +254,7 @@ a:hover
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 1%;
-
+	margin-bottom: -1%;
 }
 
 ::-webkit-scrollbar { 

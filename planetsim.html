@@ -27,12 +27,13 @@
 
 	<div class = "boxP">
 
-	<p class="text">The objective of this project was to use Matlab to create an accurate 2-D simulation of the planets (and Pluto) orbiting the sun in our solar system. To acheieve this goal, I followed a several step procedure. The first step was to collect all relevant data on the planets in the solar system. This included number of orbit days, major and minor axes of the elliptical orbit, and tilt of the ellipse relative to standard position.</p>
-	<p class="text">Once the data was collected or calculated, I compiled it into an Excel spreadsheet to be read by the Matlab script. Next, the position of the planets on August 8th, 2017 was calculated from http://www.theplanetstoday.com/, to be used as a baseline from which to start the simulation.</p>
+	<p class="text">The objective of this project was to use MATLAB to create an accurate 2-D simulation of the planets (and Pluto) orbiting the sun in our solar system. To acheieve this goal, I followed a several step procedure. The first step was to collect all relevant data on the planets in the solar system. This included number of orbit days, major and minor axes of the elliptical orbit, and tilt of the ellipse relative to standard position.</p>
+	<p class="text">Once the data was collected or calculated, I compiled it into an Excel spreadsheet to be read by the MATLAB script. Next, the position of the planets on August 8th, 2017 was calculated from http://www.theplanetstoday.com/, to be used as a baseline from which to start the simulation.</p>
 
 	<div class="imgCenter">
-	<img id="planets1" src="img/planetsaug08.png">
-	<img id="planets2" src="img/planetsdata.png">
+		<img id="planets1" src="img/planetsaug08.png">
+		<div class="flightAlign"></div>
+		<img id="planets2" src="img/planetsdata.png">
 	</div>
 
 	<p class="text">Next, the ellipse itself had to be plotted for each planet. I used parametric equations to use an independent variable to draw the ellipse for a given planet, using the data collcected from the Excel sheet. In order to fully define a planet on its elliptical orbit, I had to start the simulation at its initial position, shift the ellipse according to its perihelion and aphelion, and rotate the ellipse so that it resembled the true orbit of the planet.</p>
@@ -43,18 +44,20 @@
 	<p class="text">Once each planet could be plotted, I put it all together to make all the planets move together. As an add on, I made it possible to calculate the distance between any planet at the end of the simulation. Lastly, the user was given the control to choose how many days to run the simulation, day increment for each iteration, as well as the planet from which to calculate the final distances.</p>
 
 	<div class="imgCenter">
-	<img id="planets4" src="img/planetsdist.PNG">
-	<img id="planets5" src="img/planetsfig1.jpg">
+		<img id="planets4" src="img/planetsdist.PNG">
+		<div class="flightAlign"></div>
+		<img id="planets5" src="img/planetsfig1.jpg">
 	</div>
 
 	<p class="text">Final Possible Simulation Results:</p>
 	<div class="imgCenter">
-	<img id="planets6" src="img/planetsim1.gif">
-	<img id="planets6" src="img/planetsim2.gif">
+		<img id="planets6" src="img/planetsim1.gif">
+		<img id="planets6" src="img/planetsim2.gif">
 	</div>
 
 	<p>Github Link: <a target="_blank" style= "color:#0000EE;" href="https://github.com/KaarthicPulogarajah/Planet-Simulation"><i>Planets Simulation</i></a></p>
-
+	
+	</div>
 </main>
 <footer></footer>
 </body>

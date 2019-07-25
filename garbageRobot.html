@@ -34,22 +34,34 @@
 
 	<p class="text"> The claw had to serve two purposes: grabbing the garbage in its claws and lifting the garbage to a certain height so that it can be sorted. The challenge was to accomplish this using one motor. Several claw designs were considered such as horizontal and vertical clasping claws and vertical crane type claws. Horizontal clasping claws meant that any vertical motion would be difficult, and the crane claw would be hard to control motion, so the vertical clasping claw design was chosen and an appropriate lifting mechanism was designed.</p>
 
-	<img id="robot1" src="img/robotclaw.png">
-	<img id="robot2" src="img/robotlifting.jpg">
+	<div class="imgCenter">
+		<img id="robot1" src="img/robotclaw.png">
+		<div class="flightAlign"></div>
+		<img id="robot2" src="img/robotlifting.jpg">
+	</div>
 
 	<p class="text">The lifting mechanism would be connected to the claw by using a 3D printed rack and pinion system that had some resistance to it. The mechanism was designed such that if a quick, large force were applied, the claw would close, but any small and steady force would cause the arm to rotate backwards, lifting the garbage.</p>
 
-	<img id="robot3" src="img/robotrack.jpg">
-	<img id="robot4" src="img/robotrackassembly.jpg">
-	<img id="robot5" src="img/robotclawcomplete.png">
+	<div class="imgCenter">
+		<img id="robot3" src="img/robotrack.jpg">
+		<div class="flightAlign"></div>
+		<img id="robot4" src="img/robotrackassembly.jpg">
+		<div class="flightAlign"></div>
+		<img id="robot5" src="img/robotclawcomplete.png">
+	</div>
 
 	<p><b style="font-size:125%" >Sorting Mechanism</b></p>
 
 	<p class="text">Two different methods to sort garbage were explored. In both cases, the colour of the garbage is detected using a colour sensor. The first method was to drive the robot to a garbage station at a predetermined location, deposit the garbage in the correct bin, then continue looking for more garbage. The second method was for the robot to carry the garbage station behind itself and the arm to rotate around and drop the trash into the right colour coded bin. The advantage of the second method was that it would be more time efficient, since the robot would not have to drive to the bin each time. However, a mechanism to rotate the arm had to be designed to make this method possible.</p>
 
-	<img id="robot6" src="img/robotsorting1.jpg">
-	<img id="robot7" src="img/robotsorting3.jpg"><br>
-	<img id="robot8" src="img/robotsorting2.png">
+	<div class="imgCenter">
+		<img id="robot6" src="img/robotsorting1.jpg">
+		<div class="flightAlign"></div>
+		<img id="robot7" src="img/robotsorting3.jpg">
+	</div>
+	
+	<br>
+	<div class="imgCenter"><img id="robot8" src="img/robotsorting2.png"></div>
 
 	<p class="text">A gear system was used to rotate the arm backwards to the bin. The amount of rotation was determined by the detected colour of the garbage so that it could be sorted into the appropriate bin. A challenge with this mechanism was that the weight of the arm caused the structure to bend forward, causing the gear teeth to disengage unexpectedly. This issue was resolved by making the gears thicker and reinforcing the platform with more Lego so that it would be more rigid.</p>
 
@@ -57,13 +69,14 @@
 
 	<p class="text">This robot was programmed in RobotC and a method was written to detect garbage using a sonar sensor. Upon starting the program, the robot would turn slowly, making one revolution, while trying to detect an object around it. If an object is detected, the robot will travel to it, and pick up and sort the garbage. If an object is not detected, the robot will travel forward for a few seconds then search again until it finds garbage. As this experiment was conducted on a white board with a black border, a light intensity sensor was used to turn the robot around if it was headed off the board.</p>
 
-	<img id="robot9" src="img/robotsearch2.gif">
+	<div class="imgCenter"><img id="robot9" src="img/robotsearch2.gif"></div>
 
 	<p class="text">The final challenge of this project was to ensure the lifting and sorting mechanisms worked in unison with the searching method. </p>
 
-	<img id="robot9" src="img/robotcomplete.gif">
+	<div class="imgCenter"><img id="robot9" src="img/robotcomplete.gif"></div>
 	<p class="text">The robot detects the object in front of it, causing it to travel to the object slowly, then lift it and drop it in the bin designated for red. Finally, it brings the claw back to its original position so that more garbage can be collected. </p>
 
+	</div>
 </main>
 <footer></footer>
 </body>

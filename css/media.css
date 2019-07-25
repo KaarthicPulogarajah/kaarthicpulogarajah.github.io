@@ -5,6 +5,11 @@
 	}
 }
 
+@media handheld, screen and (max-width: 1300px) {
+   #planets1{max-width:60%;}
+   #planets2{padding-bottom:0%;}
+
+}
 /* Change features as page size decreases*/
 @media handheld, screen and (max-width: 1190px) {
 
@@ -38,6 +43,9 @@
     top: 3%;
   }
    .logo{max-width: 3%;}
+   #flight8{max-width:80%;}
+
+
 }
 @media handheld, screen and (max-width: 1025px) {
 
@@ -115,6 +123,7 @@
    /* color: pink;*/
   }
   
+  .math	{ font-size:80%;}
 
 }
 @media handheld,screen and (max-width: 700px) {
@@ -258,6 +267,31 @@
   {
     padding-right: 25%;
   }
+  
+  .math	{ font-size:70%;}
+  
+  .flightAlign 
+	{
+		padding-right: 0%;
+		padding-top:2%;		
+		display:block;
+	}
+	.flight1,.flight2 { max-width: 80%;}
+	#flight4,#flight5,#flight6,#flight7,#winds2,#robot9, #trax, #auto2 , #autocad, #planets1, #planets4, #planets5{
+		max-width: 80%;
+		padding-bottom:0%;
+	}
+	
+	#forces,#winds,#winds3,#fridge1,#fridge2,#fridge3,#fridge4,#fridge5,#fridge6,#robot1,#robot2,#robot3,#robot4,#robot5,#robot6,#robot7, #trax2, #mac2, #mac3
+	{	
+		max-width: 60%;
+		padding-left: 0%;
+		padding-top: 0%;
+		padding-right: 0%;
+	}
+	#winds3,#fridge5,#fridge6, #mac{ max-width: 40%;}
+	#mac3{	display:none;}
+	
 
 }
 @media handheld,screen and (max-width: 497px) {
@@ -336,8 +370,9 @@
   {
     width: 60%;
   }
-
+	
 	.logo{max-width: 5%;}
+	.math{ font-size:60%;}
 }
 @media handheld,screen and (max-width: 449px) {
 .headtext
@@ -426,7 +461,10 @@
   {
     display: none;
   }
-
+	.math{ font-size:50%;}
+	#flight8{max-width:100%;}
+	
+	
 }
 @media handheld,screen and (max-width: 380px) {
 
@@ -439,6 +477,7 @@
 	  /* font-size:250%; */
 	  margin-top:8%;
   }
+  #titleF {font-size: 175%;}
   
   .iam
   {
@@ -453,6 +492,7 @@
 	
 	.boxP {margin-right:-1%;}
 	.box {margin-right:-1%;}
+	.math{ font-size:40%;}
 }
 @media handheld,screen and (max-width: 326px) {
 
@@ -460,6 +500,7 @@
 {
   font-size: 200%;
 }
+.math{ font-size:30%;}
 
 
 

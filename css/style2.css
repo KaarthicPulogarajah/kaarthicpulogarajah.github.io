@@ -1,7 +1,7 @@
 h2
 {
   padding-top: 4%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Open Sans', Verdana, Geneva, sans-serif;
   color: #12027c;
   font-weight: normal;
   font-size: 120%;
@@ -61,17 +61,6 @@ img.portpics:hover
   opacity: 1;
   
 }
-
-/*.cent.wind{padding-left: 5%; }
-.cent.solid{padding-left: 7%;}
-.cent.cpp{padding-left: 8%;}
-.cent.game{padding-left: 10%;}
-.cent.battleship{padding-left: 9%;}
-*/
-
-
-
-
 
 .modal {
     display: none; /* Hidden by default */

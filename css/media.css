@@ -233,13 +233,17 @@
     padding-right: 30%;
   }
 
-  .portpics {max-width: 100%;}
+  .portpics,.portpicsx {max-width: 100%; -webkit-box-reflect:unset;}
   .cent
   {
     font-size: 175%;
     padding-bottom: 20%;
   }
- 
+  .cents
+  {
+	  font-size: 175%;
+	 padding-bottom: 25%;
+  }
 
 }
 @media handheld,screen and (max-width: 550px) {

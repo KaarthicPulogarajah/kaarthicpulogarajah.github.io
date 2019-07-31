@@ -1,4 +1,8 @@
-.text{text-align: center,justify;}
+.text{
+	font-family: 'Calibri', sans-serif;
+	text-align: center,justify;
+	color:black;
+	}
 
 #trax{max-width: 45%;}
 #mac{max-width: 27%;}

@@ -166,10 +166,8 @@
 
 }
 @media handheld,screen and (max-width: 600px) {
-  html {overflow-x:hidden;}
   body {
     font-size: 80%;
-    overflow-x:hidden;
     /*color: orange;*/
   }
 

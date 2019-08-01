@@ -27,6 +27,8 @@
 		margin-top:2%;
 	}
 	
+	.boxP {width:auto;}
+
    .titleP
   {
     font-size: 350%;
@@ -111,7 +113,7 @@
   }
   .iam{top: 23%;}
   .title{top: 20%;}
-  .portpad{padding-right: 2%;}
+  
   .logo{max-width: 3%;}
   .back{max-width:150%;}
 
@@ -244,6 +246,7 @@
 	 padding-bottom: 25%;
   }
 
+  .cont{margin-right: 0%;}
 }
 @media handheld,screen and (max-width: 550px) {
 
@@ -293,7 +296,7 @@
 		padding-right: 0%;
 	}
 	#winds3,#fridge5,#fridge6, #mac{ max-width: 40%;}
-	#mac3{	display:none;}
+	#mac3,#fridge6, #robot3, .flight2{display:none;}
 	
 
 }
@@ -493,8 +496,8 @@
   }
 	#modThree {font-size:250%;}
 	
-	.boxP {margin-right:-1%;}
-	.box {margin-right:-1%;}
+	/* .boxP {margin-right:-1%;} */
+	/* .box {margin-right:-1%;} */
 	.math{ font-size:40%;}
 }
 @media handheld,screen and (max-width: 326px) {

@@ -22,6 +22,8 @@ main {
   padding: 0px 0px; /*top AND bottom 0px, left AND right 20px */
 }
 
+p {font-family: 'Calibri', sans-serif;}
+
 a
 {
   color: inherit;
@@ -260,6 +262,7 @@ a:hover
     padding-right: 8%;
     padding-top: 1%;
 	margin-bottom: -1%;
+	width:85%;
 }
 
 ::-webkit-scrollbar { 

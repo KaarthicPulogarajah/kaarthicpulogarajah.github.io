@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Microstructure Image Analysis</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="img/icon4.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/style4.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<header>
+			<div class="container">
+			
+			 	<img class = "back" src="img/background2.jpg">
+			</div>
+</header>
+<body>
+<main>
+
+	<div class="header"><a href = "index.html">   <span >Kaarthic P.</span></a><a target="_blank" class="link" href="https://github.com/KaarthicPulogarajah"><img style="float:right" class="logo" src="img/github2.png"></a><a target="_blank" class="link" href="https://www.linkedin.com/in/kaarthicp"><img style="float:right" class="logo" src="img/linkedin.png"></a><a target="_blank" class="link" href="pdf/Kaarthic_Resume.pdf"><img style="float:right" class="logo" src="img/adobe.png"></a><a href = "portfolio.html"><span style="float:right">Portfolio   </span></a></div>
+	
+
+	<p id = "titleF" >Microstructure Image Analysis </p>
+	<!-- <p class = "padP"></p> -->
+
+	<div class = "boxP">
+
+		<p class="text">This project was built as a way to extract data from images of the microscopic structure of metals. The microstructure of metals such as steel often contains different phases (crystal structures), which are identifiable through the difference in colour and its sharp boundary lines, known as grain boundaries.</p>
+		
+		<p class="text">It is useful to determine how much of a microstructure is in each phase. For example, in a steel sample this approach can be used to help identify the metalworking processes applied to the sample. MATLAB Image Processing Toolbox was primarily used to process microstructure images into a black and white image and find the percentage of the image in each phase.</p>
+		
+		<p class="text"></p>
+
+		<div class="imgCenter">
+			<img class="micro" src="img/micro1G.png">
+			<div class="flightAlign"></div>
+			<img class="micro" src="img/micro1P.png">
+		</div>
+		
+		<p class="text">Most microstructures are not as distinct as in the image above. Preciptates are often present, and these must be filtered out to avoid artificially increasing the proportion of the dark phase. Erosion algorithms were written to solve this problem, along with dilation operations to sharpen the rest of the image.</p>
+
+		<div class="imgCenter">
+			<img class="micro" src="img/micro2G.png">
+			<div class="flightAlign"></div>
+			<img class="micro" src="img/micro2P.png">
+		</div>
+		
+		<p class="text">The most challenging aspect of this project was tackling microstructure images with poor lighting conditions. This made it extremely difficult to accurately assess the brightness of each grain, as light phase grains appeared to be darker than dark phase grains in the spotlight and made the grain boundaries hard to distinguish.</p>
+		
+		<p class="text">Histogram equalization proved to be effective in finding a solution, along with Wiener deblurring filters and Canny filters for edge detection. Eventually, it was combination of all these techniques as well as playing with the brightness and contrast that produced optimal results.</p>
+		
+		<div class="imgCenter">
+			<img class="micro" src="img/micro3G.png">
+			<div class="flightAlign"></div>
+			<img class="micro" src="img/micro3P.png">
+			<div class="flightAlign"></div>
+			<img class="micro" src="img/micro3C.png">
+		</div>
+		
+		<p class="text">The results were accurate to within 1 percent, highlighting how this software can be used to efficiently identify characteristics of the microstructure in question.</p>
+		
+		<p>Github Link: <a target="_blank" style= "color:#0000EE;" href="https://github.com/KaarthicPulogarajah/Microstructure-Analysis-Software"><i>Microstructure Analysis Software</i></a></p>
+	
+	</div>
+</main>
+<footer></footer>
+</body>
+</html>

@@ -22,6 +22,9 @@
     /* left: 5%;
 	top: 11%; */
 	padding-left: 3%;
+	margin-top:6%;
+	margin-bottom:2%;
+	text-align:left;
 }
 
 #fridge1{max-width: 30%;}
@@ -46,6 +49,9 @@
     /* left: 4%;
 	top: 10%; */
 	padding-left: 3%;
+	margin-top:6%;
+	margin-bottom:2%;
+	text-align:left;
 }
 
 #forces

@@ -27,7 +27,7 @@
 		margin-top:2%;
 	}
 	
-	.boxP {width:auto;}
+	
 
    .titleP
   {
@@ -116,7 +116,7 @@
   
   .logo{max-width: 3%;}
   .back{max-width:150%;}
-
+	.boxP {width:auto;}
 }
 @media handheld,screen and (max-width: 750px) {
 
@@ -126,6 +126,7 @@
   }
   
   .math	{ font-size:80%;}
+  
 
 }
 @media handheld,screen and (max-width: 700px) {
@@ -247,6 +248,7 @@
   }
 
   .cont{margin-right: 0%;}
+  .micro{max-width:80%;}
 }
 @media handheld,screen and (max-width: 550px) {
 
@@ -422,20 +424,20 @@
   
   #modThree {padding-right:10%;}
 
-  #titleF
+  #titleF, #titleW
   {
     font-size: 200%;
-    margin-top: 10%;
+    margin-top: 12%;
     margin-bottom: 5%;
     padding-left: 3%;
   }
-  #titleW
-  {
-    font-size: 200%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    padding-left: 3%;
-  }
+  /* #titleW */
+  /* { */
+    /* font-size: 200%; */
+    /* margin-top: 10%; */
+    /* margin-bottom: 5%; */
+    /* padding-left: 3%; */
+  /* } */
  
 
   .iam

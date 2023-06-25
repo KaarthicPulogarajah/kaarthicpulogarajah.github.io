@@ -95,6 +95,7 @@ img.portpics:hover
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
+    padding-top: 1%;
 }
 
 @-webkit-keyframes zoom {
@@ -110,7 +111,7 @@ img.portpics:hover
 /* The Close Button */
 .close {
     position: absolute;
-    top: 20px;
+    top: 35px;
     right: 35px;
     color: #f1f1f1;
     font-size: 40px;

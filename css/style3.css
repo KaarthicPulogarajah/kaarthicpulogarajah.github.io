@@ -82,7 +82,8 @@
 	max-width: 1.333%;
 	padding-right: 0.5%;
 	padding-left: 0%;
-	padding-top:2px;
+	padding-top: 0.4%;
+
 }
 
 .logodown
@@ -98,6 +99,7 @@
 	font-weight: bolder; 
 	font-family: Georgia, Times, "Times New Roman", serif;
 	/*display: inline;*/
+	/* align-items:center; */
 
 }
 

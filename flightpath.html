@@ -55,9 +55,9 @@
 		<img id="flight5" src="img/b737speeds.png">
 	</div>
 
-	<p class="text">Given the takeoff information and V-speeds of a Boeing 737-300, I had enough information to begin plotting the path of this plane's takeoff. But first, I had to make one small consideration. V-speeds are not set in stone for any airplane, but are dependent on a variety of factors listed on the bottom of the chart (right).<br>The most important factor is the takeoff weight of the jet, as this will significantly change the V-speeds. To deal with this, I fit a linear relationship between weight and V<sub>r</sub> so that when the takeoff weight is entered, the corresponding V<sub>r</sub> value is calculated automatically and converted to m/s<sup>-1</sup>.</p>
+	<p class="text">Given the takeoff information and V-speeds of a Boeing 737-300, I had enough information to begin plotting the path of this plane's takeoff. But first, I had to make one small consideration. V-speeds are not set in stone for any airplane, but are dependent on a variety of factors listed on the bottom of the chart (right).<br>The most important factor is the takeoff weight of the jet, as this will significantly change the V-speeds. To deal with this, I fit a linear relationship between weight and V<sub>r</sub> so that when the takeoff weight is entered, the corresponding V<sub>r</sub> value is calculated automatically and converted to m/s.</p>
 
-	<p class="text">To ensure that the flight path is modelled accurately, the motion of the plane must be considered as well as its position. I applied Newton's 2<sup>nd</sup> law and kinematics to solve the physics on takeoff. The forces on an airplane are thrust, drag, lift, and gravity. For the airplane to move forward during take off, thrust must exceed the relatively high lift-induced drag.<br>The Boeing 737-300 has 2 CFM Intl CFM56-3B2 engines, each capable of providing 97.9 kN of thrust. This jet has a maximum tow weight of 63000 kg, and using the equation <i>F = ma</i> and counting for drag, the acceleration comes out to be around 1.6 ms<sup>-2</sup>, consistent with actual acceleration values. Using this acceleration and kinematics, I was able to determine the minimum runway distance required for the jet to reach the required V-speeds.</p>
+	<p class="text">To ensure that the flight path is modelled accurately, the motion of the plane must be considered as well as its position. I applied Newton's 2<sup>nd</sup> law and kinematics to solve the physics on takeoff. The forces on an airplane are thrust, drag, lift, and gravity. For the airplane to move forward during take off, thrust must exceed the relatively high lift-induced drag.<br>The Boeing 737-300 has 2 CFM Intl CFM56-3B2 engines, each capable of providing 97.9 kN of thrust. This jet has a maximum tow weight of 63000 kg, and using the equation <i>F = ma</i> and counting for drag, the acceleration comes out to be around 1.6 m/s<sup>2</sup>, consistent with actual acceleration values. Using this acceleration and kinematics, I was able to determine the minimum runway distance required for the jet to reach the required V-speeds.</p>
 
 	<p class="text">To model the airplane's flight path, I used Google Maps to locate and orient the runway and my position from which to calculate the minimum distance of the flight.</p>
 
@@ -89,7 +89,7 @@
 	  $$\mathrm{C}=-\mathrm{ln}\left(\mathrm{cos}\left(\frac{\pi}{20}\right)\right)$$
 	  $$\mathrm{f}(x)=-\frac{7*180*V_r}{16\pi} \left[\mathrm{ln}\left(\mathrm{cos}\left(\frac{\frac{16}{7}(x+6.5*V_r)+\frac{15}{7}*V_r}{V_r}*\frac{\pi}{180}\right) \right)-\mathrm{ln}\left(\mathrm{cos}\left(\frac{\pi}{20}\right)\right) \right]$$
 	</div>
-	  As an example, this curve is plotted when V<sub>r</sub> = 72 ms<sup>-1</sup>, or approximately 140 knots.
+	  As an example, this curve is plotted when V<sub>r</sub> = 72 m/s, or approximately 140 knots.
 	</p>
 
 	<div class="imgCenter"><a target="_blank" href="https://www.desmos.com/calculator/iplnjsvkst"><img class="flight9" src="img/flightcurve.png"></a></div>
@@ -114,8 +114,6 @@
 	
 	<p class="text">Using my knowledge of calculus, linear algebra, physics, and MATLAB, I was able to accurately model the takeoff flight path of a typical airplane flying from Pearson International Airport and determine the minimum distance from the flight path to any observer on the ground.</p>
 
-	<p><br>Github Link: <a target="_blank" style= "color:#0000EE;" href="https://github.com/KaarthicPulogarajah/Flight-Path"><i>Flight Path</i></a></p>
-	
 	</div>
 </main>
 <footer></footer>

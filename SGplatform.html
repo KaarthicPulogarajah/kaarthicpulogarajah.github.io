@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stewart Platform Maze Solver</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="img/icon4.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<header>
+			<div class="container">
+			
+			 	<img class = "back" src="img/background2.jpg">
+			</div>
+</header>
+<body>
+<main>
+
+	<div class="header"><a href = "index.html">   <span >Kaarthic P.</span></a><a target="_blank" class="link" href="https://www.linkedin.com/in/kaarthicp"><img style="float:right" class="logo" src="img/linkedin.png"></a><a href = "portfolio.html"><span style="float:right">Portfolio   </span></a></div>
+	
+	<p id = "titleW">Stewart Platform Maze Solver</p>
+	<!-- <p class = "padP"></p> -->
+	<div class = "boxP">
+	<p class="text">The goal of this project was to construct a 6-axis platform to solve a marble maze. 
+		A significant challenge of this project was relating the motion of each motor at the base to motion about the platform axes.
+		This problem was further complicated due to the inherent cross-coupling of the system - rotation of a single motor will cause platform motion in mutliple degrees of freedom.</p>
+	<p class="text">Understanding the kinematics of such a Stewart Platform was a crucial step in developing a successful design.
+		Several physical dimensions of this mechanism - motor leg length, threaded strut length, and motor spacing affected the sensivity of motion experienced by the marble atop the platform.
+		Implementing these parameters in a modular approach along with Stewart Platform inverse kinematics allowed the design to quickly iterated prior to building any physical model.
+	</p>
+	
+	<div class="imgCenter">
+		<img id= "SP1" src="img/SGplat7.jpg">
+		<div class="flightAlign"></div>
+		<img id= "SP1" src="img/SGplat_vid.gif">
+	</div>
+	<p class="text">The prototyping process was important in refining the final design of the Stewart Platform.
+		For example, the proposed sequence of motions to solve the maze was shown to be erroneous, as each motion had been calculated from the initial position of the platform, rather than the position of the previous motion in the sequence.
+		The prototype also allowed the sequence to be tweaked to reflect imperfect or unaccounted physical phenomena, such as the inertia of the steel ball bearing "marble" and actual dimensions of the platform.
+	</p>
+	<div class="imgCenter">
+		<img id= "SP2" src="img/SGplat3.jpg">
+		<div class="flightAlign"></div>
+		<img id= "SP2" src="img/SGplat2.jpg">
+	</div>
+	<p class="text">Implementation of microswitches at the ends of the motor motion increased reliability significantly. These were used to create a calibration procedure by measuring each motor's rotation required to trigger its switch.
+		This value and its deviation from nominal is used to precisely refine each motion in the sequence to ensure the marble travels the correct distance before the next step in the sequence is activated.
+		 The calibration procedure also allows the platform to be automatically adjusted to always begin in a perfectly flat position.
+	</p>
+
+	</div>
+</main>
+<footer></footer>
+</body>
+</html>

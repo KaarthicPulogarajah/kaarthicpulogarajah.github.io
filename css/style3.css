@@ -132,3 +132,19 @@
 	border-width:1px;
 }
 #planets6{max-width: 100%;}
+
+#SP1
+{
+	max-width: 20%;
+	/* padding-left: 10%;
+	padding-top: 2%;
+	padding-right: 6%; */
+}
+
+#SP2
+{
+	max-width: 100%;
+	/* padding-left: 10%; */
+	/* padding-bottom: 7%; */
+	/* padding-right: 6%; */
+}

@@ -144,7 +144,9 @@
 #SP2
 {
 	max-width: 100%;
-	/* padding-left: 10%; */
-	/* padding-bottom: 7%; */
-	/* padding-right: 6%; */
+}
+
+#SP3
+{
+	max-width: 20%;
 }
